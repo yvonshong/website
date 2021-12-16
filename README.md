@@ -100,9 +100,16 @@ wolfram https://www.wolframalpha.com/
 鸠摩搜书 https://www.jiumodiary.com/
 
 
+# 在线画布
+https://canvas.apps.chrome/
+https://miro.com/signup/
+
+
+
 # program
 
 算法可视化 https://algorithm-visualizer.org/
+可视化 https://visualgo.net/en
 cpp http://www.cplusplus.com/
 
 在线编程  https://replit.com/languages
@@ -188,4 +195,8 @@ http://www.chaoxing.com/
 https://www.aminer.org/
 
 
+
+# 资料
+状态估计 https://www.lukesy.net/docs/self-study/barfoot-ser/
+日语课 http://class.taoyu360.com.cn/taoyu360?intercept=0
 
