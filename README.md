@@ -1,7 +1,7 @@
 # awesome-website
 
 # 攻略
-- ![马蜂窝](http://www.mafengwo.cn/)
+- [马蜂窝](http://www.mafengwo.cn/)
 - 知乎：http://zhihu.com/
 - 穷游：https://www.qyer.com/
 - 小红书
@@ -94,7 +94,7 @@ symbolab https://www.symbolab.com/solver/integral-calculator
 InstaCalc https://instacalc.com/
 
 在线手绘数学 https://webdemo.myscript.com/
-
+wolfram https://www.wolframalpha.com/
 # 搜电子书
 
 鸠摩搜书 https://www.jiumodiary.com/
@@ -158,6 +158,20 @@ hihocoder http://hihocoder.com/
 lintcode https://www.lintcode.com/
 
 
+# 下载 
+海盗湾 https://thepiratebay.by/
+BT天堂 http://www.bttiantang.com/
+
+# 搜索
+云搜 http://www.daysou.com/
+印象 https://impress.pw/
+duckduckgo https://duckduckgo.com/ 
+最专业ip数据库、手机号数据库、列车时刻数据库...... http://www.123cha.com/
+https://www.aol.com/
+
+# 电子书
+https://it-ebooks.info/
+https://www.ituring.com.cn/
 
 # 软件购买
 异次元软件世界 https://www.iplaysoft.com/
@@ -166,3 +180,12 @@ lintcode https://www.lintcode.com/
 
 # 课程 
 计算机课程 163 https://study.163.com/curricula/cs.htm
+51CTO https://edu.51cto.com/
+
+# 学术
+https://www.cnki.net/
+http://www.chaoxing.com/
+https://www.aminer.org/
+
+
+
