@@ -1,6 +1,6 @@
 # awesome-website
 # 攻略
-- [马蜂窝](http://www.mafengwo.cn/)
+- 马蜂窝： http://www.mafengwo.cn/
 - 知乎：http://zhihu.com/
 - 穷游：https://www.qyer.com/
 - 小红书
