@@ -78,6 +78,7 @@
 - 在线手绘数学 https://webdemo.myscript.com/
 - wolfram https://www.wolframalpha.com/
 # program
+- 假装编程  https://geektyper.com/
 - 算法可视化 https://algorithm-visualizer.org/
 - 可视化 https://visualgo.net/en
 - cpp ref http://www.cplusplus.com/
@@ -107,6 +108,8 @@
 # 视频资源
 - CG资源网 https://www.cgown.com/
 - AE模板 https://www.newcger.com/
+- 搞定设计 https://www.gaoding.com/introduction
+- 第一 ppt https://www.1ppt.com/
 # 下载 
 - 海盗湾 https://thepiratebay.by/
 - BT天堂 http://www.bttiantang.com/
@@ -116,11 +119,12 @@
 - duckduckgo https://duckduckgo.com/ 
 - 最专业ip数据库、手机号数据库、列车时刻数据库...... http://www.123cha.com/
 - https://www.aol.com/
-# 电子书
+# 电子书 https://www.zhihu.com/question/267327916/answer/2195303727
 - https://it-ebooks.info/
 - https://www.ituring.com.cn/
 - 鸠摩搜书 https://www.jiumodiary.com/
 - 国家标准 http://openstd.samr.gov.cn/bzgk/gb/
+- http://www.ucdrs.superlib.net/
 # 软件购买
 - 异次元软件世界 https://www.iplaysoft.com/
 # 课程 
@@ -135,3 +139,14 @@
 - 状态估计 https://www.lukesy.net/docs/self-study/barfoot-ser/
 - 东南大学全景 https://720yun.com/t/b242awafq1g?scene_id=14810
 - 集智俱乐部·注意力与知识管理群 的共享知识管理系统 https://swarma-km.hintsnet.com/
+- 全历史 https://www.allhistory.com/
+
+
+https://www.meteorshowers.org/
+https://www.dydata.io/
+http://www.cuishuai.cc/game/
+https://koutu.gaoding.com/
+https://chp.shadiao.app/
+https://www.skylinewebcams.com/
+https://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html
+
