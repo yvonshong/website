@@ -54,21 +54,26 @@
 
 ## 天气
 - 台风：http://typhoon.zjwater.gov.cn/default.aspx
-- 彩云天气
-- 星空
-- 巧摄
+- windy：https://www.windy.com/
+- 彩云天气 app
+
+## 银河天相
+- 星空 app
+- 星图 app
+- 巧摄 app
 - 光污染地图：https://www.lightpollutionmap.info
 - 光污染地图： https://www.darkmap.cn/
-- 星图
 - 莉景天气 APP/小程序
+- 天文通 小程序
 - Stellarium：http://stellarium.org/
 - heavens-above：https://www.heavens-above.com/
 - Deep Sky Stacker：http://deepskystacker.free.fr/
 
 ## 地图
 - Google Maps：https://www.google.co.jp/maps
-- 高德地图：https://amap.com/
 - Google Earth：https://earth.google.com/web/
+- 高德地图：https://amap.com/
+- 百度地图：http://map.baidu.com/
 - 实时高度表
 - 兰图绘：https://www.ldmap.net/
 - 房车营地：https://share.dituhui.com/?key=6d5397e8a78dde91b11189a017fc5e86&t=1575785943180
@@ -132,6 +137,12 @@
 - hihocoder http://hihocoder.com/
 - lintcode https://www.lintcode.com/
 
+# 计算机
+
+## 装机
+微信 pc 防撤回 https://github.com/huiyadanli/RevokeMsgPatcher
+
+
 # 工具
 - 扫描全能王 https://v3.camscanner.com/
 - feed creator http://createfeed.fivefilters.org/
@@ -143,6 +154,7 @@
 - 常用API文档索引 https://tool.oschina.net/apidocs
 - PS Online https://koutu.gaoding.com/
 - 空白网页 data:text/html,%20<html%20contenteditable>
+- 翻译 deepl https://www.deepl.com/translator
 
 # 写作
 - 在线 latex https://www.overleaf.com/
@@ -155,6 +167,7 @@
 - 网站推荐 https://xiangjianan.gitee.io/lks/
 
 # 下载 
+
 ## 浏览器插件
 - 浏览器插件列表 https://github.com/yvonshong/website/blob/master/web-browser-expansion.md
 
@@ -167,8 +180,8 @@
 - duckduckgo https://duckduckgo.com/ 
 - 最专业ip数据库、手机号数据库、列车时刻数据库 http://www.123cha.com/
 - AOL https://www.aol.com/
-## 电影资源
 
+## 电影资源
 - 努努影院 https://www.nunuyy1.org/
 
 ## 视频剪辑资源
