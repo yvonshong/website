@@ -6,8 +6,8 @@
 - 马蜂窝： http://www.mafengwo.cn/
 - 知乎：http://zhihu.com/
 - 穷游：https://www.qyer.com/
-- 小红书
 - 日本 jalan https://www.jalan.net/
+- 小红书 app
 
 ## 门票
 - 马蜂窝：http://www.mafengwo.cn/
@@ -22,12 +22,12 @@
 
 ## 美食
 - https://www.sohu.com/a/190162084_119630
-- 大众店铺
-- Yelp
-- Trip Advisor
-- Tabelog:日本
-- Mango Plate：韩国
-- 食在澳门：澳门
+- 大众点评：http://dianping.com/
+- 美国 Yelp：https://www.yelp.com/
+- Trip Advisor：https://www.tripadvisor.com/
+- 日本 Tabelog：https://tabelog.com/cn/
+- 韩国 Mango Plate
+- 澳门 食在澳门 APP
 
 # 出行
 
@@ -40,10 +40,10 @@
 
 ## 飞机
 - 天巡：https://www.tianxun.com/
-- 航线图：
+- 航线图：https://map.variflight.com/
 - flightradar24：https://www.flightradar24.com/
 - 飞常准：https://map.variflight.com/
-- 航旅纵横
+- 航旅纵横 app
  
 
 ## 航船
@@ -58,9 +58,6 @@
 - 彩云天气 app
 
 ## 银河天相
-- 星空 app
-- 星图 app
-- 巧摄 app
 - 光污染地图：https://www.lightpollutionmap.info
 - 光污染地图： https://www.darkmap.cn/
 - 莉景天气 APP/小程序
@@ -68,15 +65,18 @@
 - Stellarium：http://stellarium.org/
 - heavens-above：https://www.heavens-above.com/
 - Deep Sky Stacker：http://deepskystacker.free.fr/
+- 星空 app
+- 星图 app
+- 巧摄 app
 
 ## 地图
 - Google Maps：https://www.google.co.jp/maps
 - Google Earth：https://earth.google.com/web/
 - 高德地图：https://amap.com/
 - 百度地图：http://map.baidu.com/
-- 实时高度表
 - 兰图绘：https://www.ldmap.net/
 - 房车营地：https://share.dituhui.com/?key=6d5397e8a78dde91b11189a017fc5e86&t=1575785943180
+- 实时高度表 app
 
 ## 出行信息查询
 - 无人机禁飞区：https://www.dji.com/cn/flysafe/geo-map
@@ -92,7 +92,10 @@
 - 内啥
 - 探物
 
-# 记账
+## 记账
+- 百事 AA 记账：app 小程序
+- 随手记：https://www.sui.com/ 
+
 
 # 学习
 
@@ -137,10 +140,17 @@
 - hihocoder http://hihocoder.com/
 - lintcode https://www.lintcode.com/
 
-# 计算机
+# 电脑软件
 
 ## 装机
 微信 pc 防撤回 https://github.com/huiyadanli/RevokeMsgPatcher
+
+## 软件购买
+- 异次元软件世界 https://www.iplaysoft.com/
+
+
+## 域名
+- 西部数码 https://www.west.cn/login.asp?pageStr=/manager/domain/rsall.asp
 
 
 # 工具
@@ -159,8 +169,6 @@
 # 写作
 - 在线 latex https://www.overleaf.com/
 
-# 域名
-- 西部数码 https://www.west.cn/login.asp?pageStr=/manager/domain/rsall.asp
 
 # 信息
 - 今日热榜 https://tophub.today/
@@ -198,8 +206,6 @@
 - 国家标准 http://openstd.samr.gov.cn/bzgk/gb/
 - http://www.ucdrs.superlib.net/
 
-# 软件购买
-- 异次元软件世界 https://www.iplaysoft.com/
 
 # 资料
 - 状态估计 https://www.lukesy.net/docs/self-study/barfoot-ser/
