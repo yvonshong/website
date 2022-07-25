@@ -28,6 +28,7 @@
 - 日本 Tabelog：https://tabelog.com/cn/
 - 韩国 Mango Plate
 - 澳门 食在澳门 APP
+- 全球美食地图 https://www.tasteatlas.com/search
 
 # 出行
 
@@ -56,6 +57,7 @@
 - 台风：http://typhoon.zjwater.gov.cn/default.aspx
 - windy：https://www.windy.com/
 - 彩云天气 app
+- 卫星图 https://zoom.earth/
 
 ## 银河天相
 - 光污染地图：https://www.lightpollutionmap.info
@@ -113,6 +115,7 @@
 - 计算机课程 163 https://study.163.com/curricula/cs.htm
 - 51CTO https://edu.51cto.com/
 - 日语课 http://class.taoyu360.com.cn/taoyu360?intercept=0
+- coursera https://www.coursera.org/
 
 ## 学术
 - 知网 https://www.cnki.net/
@@ -165,15 +168,43 @@
 - PS Online https://koutu.gaoding.com/
 - 空白网页 data:text/html,%20<html%20contenteditable>
 - 翻译 deepl https://www.deepl.com/translator
+- 传文件 https://airportal.cn/
+- 视频字幕 https://2zimu.com/#/ 
 
-# 写作
+# 创造
+
+## 写作
 - 在线 latex https://www.overleaf.com/
 
+
+## 视频剪辑资源
+- CG资源网 https://www.cgown.com/
+- AE模板 https://www.newcger.com/
+- Adobe 资源 http://adobe.v404.cn/adobe/
+- 删除视频背景 https://www.unscreen.com/
+- 游戏3D地图 https://noclip.website/
+
+## PS
+- 搞定设计 https://www.gaoding.com/introduction
+
+## PPT
+- 第一 ppt https://www.1ppt.com/
+- slidesgo https://slidesgo.com/theme/isometric-proposal
+- officeplus https://www.officeplus.cn/
+- 词云 https://www.weiciyun.com/
+
+## 图片
+- 千亿像素看中国 http://pf.bigpixel.cn/zh-CN.html
+- 删除图片背景 https://www.remove.bg/
+
+## 文档处理
+- 文档格式转换 https://www.alltoall.net/
+- 格式转换 https://www.aconvert.com/cn/
 
 # 信息
 - 今日热榜 https://tophub.today/
 - 网站推荐 https://xiangjianan.gitee.io/lks/
-
+- wikihow https://zh.wikihow.com/%E9%A6%96%E9%A1%B5
 # 下载 
 
 ## 浏览器插件
@@ -192,11 +223,6 @@
 ## 电影资源
 - 努努影院 https://www.nunuyy1.org/
 
-## 视频剪辑资源
-- CG资源网 https://www.cgown.com/
-- AE模板 https://www.newcger.com/
-- 搞定设计 https://www.gaoding.com/introduction
-- 第一 ppt https://www.1ppt.com/
 
 ## 电子书
 - 知乎汇总 https://www.zhihu.com/question/267327916/answer/2195303727
@@ -218,3 +244,15 @@
 - 彩虹屁生成器 https://chp.shadiao.app/
 - web cam https://www.skylinewebcams.com/
 - pixelspace_solarsystem https://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html
+- 报告查一查 https://report.seedsufe.com/#/report
+- 日本海边车站 https://seaside-station.com/region/hokkaido/
+- 标准地图服务 http://bzdt.ch.mnr.gov.cn/index.html
+- 地图书人文地理知识库 https://www.ageeye.cn/
+
+# 合辑网站
+- 有趣网址之家 - 收藏全球最有趣的网站 https://youquhome.com/
+- 即时工具 https://www.67tool.com/
+- MikuTools - 工具集合 https://tools.miku.ac/
+- 精选创意导航 https://creativemass.cn/#/
+- 考拉新媒体导航 https://www.kaolamedia.com/
+- 优优往 https://uiiiuiii.com/tools
