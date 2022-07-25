@@ -135,6 +135,7 @@
 
 ## 手册
 - cpp ref http://www.cplusplus.com/
+- 常用API文档索引 https://tool.oschina.net/apidocs
 
 ## 刷题
 - 牛客 https://www.nowcoder.com/
@@ -155,21 +156,19 @@
 ## 域名
 - 西部数码 https://www.west.cn/login.asp?pageStr=/manager/domain/rsall.asp
 
+## 编程工具
+- feed creator http://createfeed.fivefilters.org/
+- followthatpage https://www.followthatpage.com/
 
 # 工具
 - 扫描全能王 https://v3.camscanner.com/
-- feed creator http://createfeed.fivefilters.org/
-- followthatpage https://www.followthatpage.com/
 - temp mail https://temp-mail.org/
 - 在线画图 https://excalidraw.com/
 - 在线画布 https://canvas.apps.chrome/
 - 在线画布 https://miro.com/signup/
-- 常用API文档索引 https://tool.oschina.net/apidocs
-- PS Online https://koutu.gaoding.com/
 - 空白网页 data:text/html,%20<html%20contenteditable>
 - 翻译 deepl https://www.deepl.com/translator
 - 传文件 https://airportal.cn/
-- 视频字幕 https://2zimu.com/#/ 
 
 # 创造
 
@@ -183,9 +182,8 @@
 - Adobe 资源 http://adobe.v404.cn/adobe/
 - 删除视频背景 https://www.unscreen.com/
 - 游戏3D地图 https://noclip.website/
+- 视频字幕 https://2zimu.com/#/ 
 
-## PS
-- 搞定设计 https://www.gaoding.com/introduction
 
 ## PPT
 - 第一 ppt https://www.1ppt.com/
@@ -196,6 +194,7 @@
 ## 图片
 - 千亿像素看中国 http://pf.bigpixel.cn/zh-CN.html
 - 删除图片背景 https://www.remove.bg/
+- 搞定设计 https://www.gaoding.com/introduction
 
 ## 文档处理
 - 文档格式转换 https://www.alltoall.net/
