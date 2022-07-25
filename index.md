@@ -205,6 +205,8 @@
 - 今日热榜 https://tophub.today/
 - 网站推荐 https://xiangjianan.gitee.io/lks/
 - wikihow https://zh.wikihow.com/%E9%A6%96%E9%A1%B5
+
+
 # 下载 
 
 ## 浏览器插件
@@ -255,4 +257,4 @@
 - MikuTools - 工具集合 https://tools.miku.ac/
 - 精选创意导航 https://creativemass.cn/#/
 - 考拉新媒体导航 https://www.kaolamedia.com/
-- 优优往 https://uiiiuiii.com/tools
+- 优优网 https://uiiiuiii.com/tools
