@@ -21,23 +21,32 @@
 - 去哪儿：http://www.qunar.com/
 
 ## 美食
-- https://www.sohu.com/a/190162084_119630
 - 大众点评：http://dianping.com/
-- 美国 Yelp：https://www.yelp.com/
+- 欧美大众点评 Yelp：https://www.yelp.com/
 - Trip Advisor：https://www.tripadvisor.com/
 - 日本 Tabelog：https://tabelog.com/cn/
+- 日本 GURUNAVI
+- 英国 Deliveroo
 - 韩国 Mango Plate
 - 澳门 食在澳门 APP
+- 新加坡 Burpple 
+- 新加坡 Hungry Go Where
+- 印尼 Qraved
+- 香港 Openrice
+- 台湾 爱食记
+- 四万公里
+- Zomato
+- 美国中文网 http://www.sinovision.net/food.php
 - 全球美食地图 https://www.tasteatlas.com/search
 
 # 出行
 
 ## 租车
-- 神州租车
-- 一嗨租车
-- 携程租车
-- 摩范出行
-- EVCARD
+- 神州租车 app
+- 一嗨租车 app
+- 携程租车 app
+- 摩范出行 app
+- EVCARD app
 
 ## 飞机
 - 天巡：https://www.tianxun.com/
@@ -56,17 +65,17 @@
 ## 天气
 - 台风：http://typhoon.zjwater.gov.cn/default.aspx
 - windy：https://www.windy.com/
-- 彩云天气 app
 - 卫星图 https://zoom.earth/
+- 彩云天气 app
 
 ## 银河天相
 - 光污染地图：https://www.lightpollutionmap.info
 - 光污染地图： https://www.darkmap.cn/
-- 莉景天气 APP/小程序
-- 天文通 小程序
 - Stellarium：http://stellarium.org/
 - heavens-above：https://www.heavens-above.com/
 - Deep Sky Stacker：http://deepskystacker.free.fr/
+- 莉景天气 APP/小程序
+- 天文通 小程序
 - 星空 app
 - 星图 app
 - 巧摄 app
@@ -91,8 +100,8 @@
 - iMuseum app
 
 ## 租物
-- 内啥
-- 探物
+- 内啥 app
+- 探物 app
 
 ## 记账
 - 百事 AA 记账：app 小程序
@@ -147,7 +156,7 @@
 # 电脑软件
 
 ## 装机
-微信 pc 防撤回 https://github.com/huiyadanli/RevokeMsgPatcher
+- 微信 pc 防撤回 https://github.com/huiyadanli/RevokeMsgPatcher
 
 ## 软件购买
 - 异次元软件世界 https://www.iplaysoft.com/
@@ -227,11 +236,11 @@
 
 ## 电子书
 - 知乎汇总 https://www.zhihu.com/question/267327916/answer/2195303727
-- https://it-ebooks.info/
-- https://www.ituring.com.cn/
+- IT 电子书 https://it-ebooks.info/
+- 图灵 https://www.ituring.com.cn/
 - 鸠摩搜书 https://www.jiumodiary.com/
 - 国家标准 http://openstd.samr.gov.cn/bzgk/gb/
-- http://www.ucdrs.superlib.net/
+- 全国图书馆参考咨询联盟 http://www.ucdrs.superlib.net/
 
 
 # 资料
@@ -240,7 +249,7 @@
 - 集智俱乐部·注意力与知识管理群 的共享知识管理系统 https://swarma-km.hintsnet.com/
 - 全历史 https://www.allhistory.com/
 - Southern Delta Aquariids meteor shower https://www.meteorshowers.org/
-- 权威数据   海量聚合 https://www.dydata.io/
+- 权威数据 海量聚合 https://www.dydata.io/
 - 测测你的眼睛对色差的辨识度 http://www.cuishuai.cc/game/
 - 彩虹屁生成器 https://chp.shadiao.app/
 - web cam https://www.skylinewebcams.com/
@@ -251,7 +260,7 @@
 - 地图书人文地理知识库 https://www.ageeye.cn/
 
 # 合辑网站
-- 有趣网址之家 - 收藏全球最有趣的网站 https://youquhome.com/
+- 有趣网址之家 收藏全球最有趣的网站 https://youquhome.com/
 - 即时工具 https://www.67tool.com/
 - MikuTools - 工具集合 https://tools.miku.ac/
 - 精选创意导航 https://creativemass.cn/#/
