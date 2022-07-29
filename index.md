@@ -183,7 +183,8 @@
 
 ## 写作
 - 在线 latex https://www.overleaf.com/
-
+- 据意查句 https://wantquotes.net/
+- 汉语反向词典 万词王 https://wantwords.net/
 
 ## 视频剪辑资源
 - CG资源网 https://www.cgown.com/
