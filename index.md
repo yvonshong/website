@@ -178,6 +178,7 @@
 - 空白网页 data:text/html,%20<html%20contenteditable>
 - 翻译 deepl [https://www.deepl.com/translator](https://www.deepl.com/translator)
 - 传文件 [https://airportal.cn/](https://airportal.cn/)
+- shadowsocks [https://portal.shadowsocks.au/](https://portal.shadowsocks.au/)
 
 # 创造
 
