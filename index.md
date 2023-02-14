@@ -268,3 +268,4 @@
 - 精选创意导航 [https://creativemass.cn/#/](https://creativemass.cn/#/)
 - 考拉新媒体导航 [https://www.kaolamedia.com/](https://www.kaolamedia.com/)
 - 优优网 [https://uiiiuiii.com/tools](https://uiiiuiii.com/tools)
+- QQ浏览器帮小忙, 万能工具宝藏 [https://tool.browser.qq.com/](https://tool.browser.qq.com/)
