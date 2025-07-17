@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>随机英文人名 + 东京都邮编生成器</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f2f5;
+            flex-direction: column;
+        }
+        .container {
+            text-align: center;
+            padding: 40px;
+            border-radius: 10px;
+            background-color: #ffffff;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+            width: 90%;
+            max-width: 400px;
+        }
+        h1 {
+            color: #333;
+            margin-top: 0;
+        }
+        .main-button {
+            padding: 12px 24px;
+            font-size: 18px;
+            cursor: pointer;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            width: 100%;
+            margin-bottom: 25px;
+        }
+        .main-button:hover {
+            background-color: #0056b3;
+        }
+        .result-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px;
+            margin-top: 15px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            border: 1px solid #dee2e6;
+        }
+        .result-item span {
+            font-size: 18px;
+            font-weight: bold;
+            color: #495057;
+            flex-grow: 1;
+            text-align: left;
+            padding-left: 10px;
+        }
+        .copy-button {
+            padding: 8px 16px;
+            font-size: 14px;
+            cursor: pointer;
+            border: 1px solid #007bff;
+            background-color: #ffffff;
+            color: #007bff;
+            border-radius: 4px;
+            transition: all 0.3s;
+            white-space: nowrap;
+        }
+        .copy-button:hover {
+            background-color: #e9ecef;
+        }
+        .copy-button.copied {
+            background-color: #28a745;
+            color: white;
+            border-color: #28a745;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>随机信息生成器</h1>
+        <button class="main-button" onclick="generate()">点击生成</button>
+
+        <div id="result-container" style="display: none;">
+            <div class="result-item">
+                <label>姓：</label>
+                <span id="last-name"></span>
+                <button class="copy-button" onclick="copyToClipboard('last-name', this)">复制</button>
+            </div>
+            <div class="result-item">
+                <label>名：</label>
+                <span id="first-name"></span>
+                <button class="copy-button" onclick="copyToClipboard('first-name', this)">复制</button>
+            </div>
+            <div class="result-item">
+                <label>邮编：</label>
+                <span id="post-code"></span>
+                <button class="copy-button" onclick="copyToClipboard('post-code', this)">复制</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const firstNames = [
+            "James", "John", "Robert", "Michael", "William", "David", "Richard", "Joseph", "Thomas", "Charles",
+            "Christopher", "Daniel", "Matthew", "Anthony", "Donald", "Mary", "Patricia", "Jennifer", "Linda",
+            "Elizabeth", "Barbara", "Susan", "Jessica", "Sarah", "Karen", "Nancy", "Lisa", "Betty", "Margaret",
+            "Emily", "Olivia", "Sophia", "Ava", "Isabella", "Mia"
+        ];
+
+        const lastNames = [
+            "Smith", "Johnson", "Williams", "Brown", "Jones", "Garcia", "Miller", "Davis", "Rodriguez", "Martinez",
+            "Hernandez", "Lopez", "Gonzalez", "Wilson", "Anderson", "Thomas", "Taylor", "Moore", "Jackson", "Martin",
+            "Lee", "Perez", "Thompson", "White", "Harris", "Sanchez", "Clark", "Lewis", "Robinson", "Walker"
+        ];
+
+        const tokyoPostCodes = [
+            "1000001", "1000005", "1000011", "1000013", "1000014", "1010021", "1010024", "1010025",
+            "1020071", "1020072", "1020073", "1020074", "1020075", "1020081", "1020082", "1020083",
+            "1030001", "1030002", "1030003", "1030004", "1030005", "1030006", "1030007", "1030011",
+            "1040031", "1040032", "1040033", "1040041", "1040042", "1040043", "1040044", "1040045",
+            "1050001", "1050003", "1050004", "1050011", "1050012", "1050013", "1050014", "1050021",
+            "1060031", "1060032", "1060041", "1060044", "1060045", "1060046", "1060047", "1070052",
+            "1080014", "1080022", "1080023", "1080071", "1080072", "1080073", "1080074", "1080075",
+            "1100001", "1100002", "1100003", "1100004", "1100005", "1100007", "1100011", "1100012",
+            "1110032", "1110033", "1110034", "1110035", "1110041", "1110042", "1110043", "1110051",
+            "1120001", "1120002", "1120003", "1120004", "1120005", "1120006", "1120011", "1120012",
+            "1130021", "1130022", "1130023", "1130024", "1130031", "1130032", "1130033", "1130034",
+            "1140001", "1140002", "1140003", "1140004", "1140005", "1140006", "1140011", "1140012",
+            "1150041", "1150042", "1150043", "1150044", "1150045", "1150051", "1150052", "1150053",
+            "1160001", "1160002", "1160003", "1160011", "1160012", "1160013", "1160014", "1200001",
+            "1200002", "1200003", "1200004", "1200005", "1200011", "1200012", "1200013", "1200014",
+            "1500001", "1500002", "1500021", "1500022", "1500031", "1500032", "1500033", "1500034",
+            "1510051", "1510053", "1510061", "1510062", "1510063", "1510064", "1510065", "1510066",
+            "1520001", "1520002", "1520003", "1520004", "1520005", "1520011", "1520012", "1520013",
+            "1530041", "1530042", "1530043", "1530044", "1530051", "1530052", "1530053", "1530061",
+            "1540001", "1540002", "1540003", "1540004", "1540005", "1540011", "1540012", "1540013",
+            "1600001", "1600002", "1600003", "1600004", "1600005", "1600006", "1600007", "1600008",
+            "1610031", "1610032", "1610033", "1610034", "1610035", "1620041", "1620042", "1620043",
+            "1640001", "1640002", "1640003", "1640011", "1640012", "1640013", "1640014", "1650021",
+            "1660001", "1660002", "1660003", "1660004", "1660011", "1660012", "1660013", "1660014",
+            "1670021", "1670022", "1670023", "1670031", "1670032", "1670033", "1670034", "1670035",
+            "1680061", "1680062", "1680063", "1680064", "1680065", "1680071", "1680072", "1680073",
+            "1700001", "1700002", "1700003", "1700004", "1700005", "1700011", "1700012", "1700013",
+            "1710014", "1710021", "1710022", "1710031", "1710032", "1710033", "1710041", "1710042",
+            "1730001", "1730002", "1730003", "1730004", "1730005", "1730006", "1730011", "1730012",
+            "1740041", "1740042", "1740043", "1740044", "1740045", "1740046", "1740051", "1740052",
+            "1750081", "1750082", "1750083", "1750084", "1750085", "1750086", "1750091", "1750092",
+            "1760001", "1760002", "1760003", "1760004", "1760005", "1760006", "1760011", "1760012",
+            "1770031", "1770032", "1770033", "1770034", "1770035", "1770041", "1770042", "1770043",
+            "1780061", "1780062", "1780063", "1780064", "1780065", "1780066", "1790071", "1790072",
+            "1800001", "1800002", "1800003", "1800004", "1800005", "1800006", "1810001", "1810002",
+            "1820001", "1820002", "1820003", "1820004", "1820005", "1820006", "1820011", "1820012",
+            "1830001", "1830002", "1830003", "1830004", "1830005", "1830006", "1830011", "1830012",
+            "1840001", "1840002", "1840003", "1840004", "1840005", "1840006", "1850001", "1850002",
+            "1860001", "1860002", "1860003", "1860004", "1870001", "1870002", "1870003", "1870004",
+            "1880001", "1880002", "1880003", "1880004", "1880011", "1880012", "1880013", "1880014",
+            "1900001", "1900002", "1900003", "1900004", "1900011", "1900012", "1900013", "1900014",
+            "1910001", "1910002", "1910003", "1910004", "1910005", "1910006", "1910011", "1910012",
+            "1920001", "1920002", "1920003", "1920004", "1920005", "1920006", "1920011", "1920012",
+            "1930801", "1930802", "1930803", "1930804", "1930811", "1930812", "1930813", "1930814",
+            "1940001", "1940002", "1940003", "1940004", "1940005", "1940011", "1940012", "1940013",
+            "1950051", "1950052", "1950053", "1950054", "1950055", "1950056", "1950061", "1950062",
+            "1960001", "1960002", "1960003", "1960004", "1960011", "1960012", "1960013", "1960014",
+            "1970001", "1970002", "1970003", "1970004", "1970005", "1970011", "1970012", "1970013",
+            "1980001", "1980002", "1980003", "1980004", "1980011", "1980012", "1980013", "1980014",
+            "2010001", "2010002", "2010003", "2010004", "2010005", "2010006", "2010011", "2010012",
+            "2020001", "2020002", "2020003", "2020004", "2020005", "2020011", "2020012", "2020013",
+            "2030001", "2030002", "2030003", "2030004", "2030005", "2030011", "2030012", "2030013",
+            "2040001", "2040002", "2040003", "2040004", "2040005", "2040011", "2040012", "2040013",
+            "2050001", "2050002", "2050003", "2050004", "2050011", "2050012", "2050013", "2050014",
+            "2060001", "2060002", "2060003", "2060004", "2060011", "2060012", "2060013", "2060014",
+            "2070001", "2070002", "2070003", "2070004", "2070005", "2070011", "2070012", "2070013",
+            "2080001", "2080002", "2080003", "2080004", "2080011", "2080012", "2080013", "2080014"
+        ];
+
+
+        function generate() {
+            const randomFirstName = firstNames[Math.floor(Math.random() * firstNames.length)];
+            const randomLastName = lastNames[Math.floor(Math.random() * lastNames.length)];
+            const randomPostCode = tokyoPostCodes[Math.floor(Math.random() * tokyoPostCodes.length)];
+
+            document.getElementById('first-name').textContent = randomFirstName;
+            document.getElementById('last-name').textContent = randomLastName;
+            document.getElementById('post-code').textContent = `${randomPostCode}`;
+            
+            // Show the results container
+            document.getElementById('result-container').style.display = 'block';
+        }
+
+        function copyToClipboard(elementId, buttonElement) {
+            const textToCopy = document.getElementById(elementId).textContent;
+
+            // Use the modern clipboard API
+            navigator.clipboard.writeText(textToCopy).then(() => {
+                // Provide feedback to the user
+                const originalText = buttonElement.textContent;
+                buttonElement.textContent = '已复制!';
+                buttonElement.classList.add('copied');
+                
+                setTimeout(() => {
+                    buttonElement.textContent = originalText;
+                    buttonElement.classList.remove('copied');
+                }, 2000); // Revert back after 2 seconds
+            }).catch(err => {
+                console.error('无法复制文本: ', err);
+                alert('复制失败！请检查浏览器权限或使用现代浏览器。');
+            });
+        }
+    </script>
+
+</body>
+</html>
