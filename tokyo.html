@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>随机英文人名 + 东京都邮编生成器</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f2f5;
+            flex-direction: column;
+        }
+        .container {
+            text-align: center;
+            padding: 40px;
+            border-radius: 10px;
+            background-color: #ffffff;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+            width: 90%;
+            max-width: 400px;
+        }
+        h1 {
+            color: #333;
+            margin-top: 0;
+        }
+        .main-button {
+            padding: 12px 24px;
+            font-size: 18px;
+            cursor: pointer;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            width: 100%;
+            margin-bottom: 25px;
+        }
+        .main-button:hover {
+            background-color: #0056b3;
+        }
+        .result-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px;
+            margin-top: 15px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            border: 1px solid #dee2e6;
+        }
+        .result-item span {
+            font-size: 18px;
+            font-weight: bold;
+            color: #495057;
+            flex-grow: 1;
+            text-align: left;
+            padding-left: 10px;
+        }
+        .copy-button {
+            padding: 8px 16px;
+            font-size: 14px;
+            cursor: pointer;
+            border: 1px solid #007bff;
+            background-color: #ffffff;
+            color: #007bff;
+            border-radius: 4px;
+            transition: all 0.3s;
+            white-space: nowrap;
+        }
+        .copy-button:hover {
+            background-color: #e9ecef;
+        }
+        .copy-button.copied {
+            background-color: #28a745;
+            color: white;
+            border-color: #28a745;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>随机信息生成器</h1>
+        <button class="main-button" onclick="generate()">点击生成</button>
+
+        <div id="result-container" style="display: none;">
+            <div class="result-item">
+                <label>姓：</label>
+                <span id="last-name"></span>
+                <button class="copy-button" onclick="copyToClipboard('last-name', this)">复制</button>
+            </div>
+            <div class="result-item">
+                <label>名：</label>
+                <span id="first-name"></span>
+                <button class="copy-button" onclick="copyToClipboard('first-name', this)">复制</button>
+            </div>
+            <div class="result-item">
+                <label>邮编：</label>
+                <span id="post-code"></span>
+                <button class="copy-button" onclick="copyToClipboard('post-code', this)">复制</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const firstNames = [
+            "James", "John", "Robert", "Michael", "William", "David", "Richard", "Joseph", "Thomas", "Charles",
+            "Christopher", "Daniel", "Matthew", "Anthony", "Donald", "Mary", "Patricia", "Jennifer", "Linda",
+            "Elizabeth", "Barbara", "Susan", "Jessica", "Sarah", "Karen", "Nancy", "Lisa", "Betty", "Margaret",
+            "Emily", "Olivia", "Sophia", "Ava", "Isabella", "Mia"
+        ];
+
+        const lastNames = [
+            "Smith", "Johnson", "Williams", "Brown", "Jones", "Garcia", "Miller", "Davis", "Rodriguez", "Martinez",
+            "Hernandez", "Lopez", "Gonzalez", "Wilson", "Anderson", "Thomas", "Taylor", "Moore", "Jackson", "Martin",
+            "Lee", "Perez", "Thompson", "White", "Harris", "Sanchez", "Clark", "Lewis", "Robinson", "Walker"
+        ];
+
+        const tokyoPostCodes = [
+            "100-0001", "100-0005", "100-0011", "100-0013", "100-0014", "101-0021", "101-0024", "101-0025",
+            "102-0071", "102-0072", "102-0073", "102-0074", "102-0075", "102-0081", "102-0082", "102-0083",
+            "103-0001", "103-0002", "103-0003", "103-0004", "103-0005", "103-0006", "103-0007", "103-0011",
+            "104-0031", "104-0032", "104-0033", "104-0041", "104-0042", "104-0043", "104-0044", "104-0045",
+            "105-0001", "105-0003", "105-0004", "105-0011", "105-0012", "105-0013", "105-0014", "105-0021",
+            "106-0031", "106-0032", "106-0041", "106-0044", "106-0045", "106-0046", "106-0047", "107-0052",
+            "108-0014", "108-0022", "108-0023", "108-0071", "108-0072", "108-0073", "108-0074", "108-0075",
+            "110-0001", "110-0002", "110-0003", "110-0004", "110-0005", "110-0007", "110-0011", "110-0012",
+            "111-0032", "111-0033", "111-0034", "111-0035", "111-0041", "111-0042", "111-0043", "111-0051",
+            "112-0001", "112-0002", "112-0003", "112-0004", "112-0005", "112-0006", "112-0011", "112-0012",
+            "113-0021", "113-0022", "113-0023", "113-0024", "113-0031", "113-0032", "113-0033", "113-0034",
+            "114-0001", "114-0002", "114-0003", "114-0004", "114-0005", "114-0006", "114-0011", "114-0012",
+            "115-0041", "115-0042", "115-0043", "115-0044", "115-0045", "115-0051", "115-0052", "115-0053",
+            "116-0001", "116-0002", "116-0003", "116-0011", "116-0012", "116-0013", "116-0014", "120-0001",
+            "120-0002", "120-0003", "120-0004", "120-0005", "120-0011", "120-0012", "120-0013", "120-0014",
+            "150-0001", "150-0002", "150-0021", "150-0022", "150-0031", "150-0032", "150-0033", "150-0034",
+            "151-0051", "151-0053", "151-0061", "151-0062", "151-0063", "151-0064", "151-0065", "151-0066",
+            "152-0001", "152-0002", "152-0003", "152-0004", "152-0005", "152-0011", "152-0012", "152-0013",
+            "153-0041", "153-0042", "153-0043", "153-0044", "153-0051", "153-0052", "153-0053", "153-0061",
+            "154-0001", "154-0002", "154-0003", "154-0004", "154-0005", "154-0011", "154-0012", "154-0013",
+            "160-0001", "160-0002", "160-0003", "160-0004", "160-0005", "160-0006", "160-0007", "160-0008",
+            "161-0031", "161-0032", "161-0033", "161-0034", "161-0035", "162-0041", "162-0042", "162-0043",
+            "164-0001", "164-0002", "164-0003", "164-0011", "164-0012", "164-0013", "164-0014", "165-0021",
+            "166-0001", "166-0002", "166-0003", "166-0004", "166-0011", "166-0012", "166-0013", "166-0014",
+            "167-0021", "167-0022", "167-0023", "167-0031", "167-0032", "167-0033", "167-0034", "167-0035",
+            "168-0061", "168-0062", "168-0063", "168-0064", "168-0065", "168-0071", "168-0072", "168-0073",
+            "170-0001", "170-0002", "170-0003", "170-0004", "170-0005", "170-0011", "170-0012", "170-0013",
+            "171-0014", "171-0021", "171-0022", "171-0031", "171-0032", "171-0033", "171-0041", "171-0042",
+            "173-0001", "173-0002", "173-0003", "173-0004", "173-0005", "173-0006", "173-0011", "173-0012",
+            "174-0041", "174-0042", "174-0043", "174-0044", "174-0045", "174-0046", "174-0051", "174-0052",
+            "175-0081", "175-0082", "175-0083", "175-0084", "175-0085", "175-0086", "175-0091", "175-0092",
+            "176-0001", "176-0002", "176-0003", "176-0004", "176-0005", "176-0006", "176-0011", "176-0012",
+            "177-0031", "177-0032", "177-0033", "177-0034", "177-0035", "177-0041", "177-0042", "177-0043",
+            "178-0061", "178-0062", "178-0063", "178-0064", "178-0065", "178-0066", "179-0071", "179-0072",
+            "180-0001", "180-0002", "180-0003", "180-0004", "180-0005", "180-0006", "181-0001", "181-0002",
+            "182-0001", "182-0002", "182-0003", "182-0004", "182-0005", "182-0006", "182-0011", "182-0012",
+            "183-0001", "183-0002", "183-0003", "183-0004", "183-0005", "183-0006", "183-0011", "183-0012",
+            "184-0001", "184-0002", "184-0003", "184-0004", "184-0005", "184-0006", "185-0001", "185-0002",
+            "186-0001", "186-0002", "186-0003", "186-0004", "187-0001", "187-0002", "187-0003", "187-0004",
+            "188-0001", "188-0002", "188-0003", "188-0004", "188-0011", "188-0012", "188-0013", "188-0014",
+            "190-0001", "190-0002", "190-0003", "190-0004", "190-0011", "190-0012", "190-0013", "190-0014",
+            "191-0001", "191-0002", "191-0003", "191-0004", "191-0005", "191-0006", "191-0011", "191-0012",
+            "192-0001", "192-0002", "192-0003", "192-0004", "192-0005", "192-0006", "192-0011", "192-0012",
+            "193-0801", "193-0802", "193-0803", "193-0804", "193-0811", "193-0812", "193-0813", "193-0814",
+            "194-0001", "194-0002", "194-0003", "194-0004", "194-0005", "194-0011", "194-0012", "194-0013",
+            "195-0051", "195-0052", "195-0053", "195-0054", "195-0055", "195-0056", "195-0061", "195-0062",
+            "196-0001", "196-0002", "196-0003", "196-0004", "196-0011", "196-0012", "196-0013", "196-0014",
+            "197-0001", "197-0002", "197-0003", "197-0004", "197-0005", "197-0011", "197-0012", "197-0013",
+            "198-0001", "198-0002", "198-0003", "198-0004", "198-0011", "198-0012", "198-0013", "198-0014",
+            "201-0001", "201-0002", "201-0003", "201-0004", "201-0005", "201-0006", "201-0011", "201-0012",
+            "202-0001", "202-0002", "202-0003", "202-0004", "202-0005", "202-0011", "202-0012", "202-0013",
+            "203-0001", "203-0002", "203-0003", "203-0004", "203-0005", "203-0011", "203-0012", "203-0013",
+            "204-0001", "204-0002", "204-0003", "204-0004", "204-0005", "204-0011", "204-0012", "204-0013",
+            "205-0001", "205-0002", "205-0003", "205-0004", "205-0011", "205-0012", "205-0013", "205-0014",
+            "206-0001", "206-0002", "206-0003", "206-0004", "206-0011", "206-0012", "206-0013", "206-0014",
+            "207-0001", "207-0002", "207-0003", "207-0004", "207-0005", "207-0011", "207-0012", "207-0013",
+            "208-0001", "208-0002", "208-0003", "208-0004", "208-0011", "208-0012", "208-0013", "208-0014"
+        ];
+
+
+        function generate() {
+            const randomFirstName = firstNames[Math.floor(Math.random() * firstNames.length)];
+            const randomLastName = lastNames[Math.floor(Math.random() * lastNames.length)];
+            const randomPostCode = tokyoPostCodes[Math.floor(Math.random() * tokyoPostCodes.length)];
+
+            document.getElementById('first-name').textContent = randomFirstName;
+            document.getElementById('last-name').textContent = randomLastName;
+            document.getElementById('post-code').textContent = `${randomPostCode}`;
+            
+            // Show the results container
+            document.getElementById('result-container').style.display = 'block';
+        }
+
+        function copyToClipboard(elementId, buttonElement) {
+            const textToCopy = document.getElementById(elementId).textContent;
+
+            // Use the modern clipboard API
+            navigator.clipboard.writeText(textToCopy).then(() => {
+                // Provide feedback to the user
+                const originalText = buttonElement.textContent;
+                buttonElement.textContent = '已复制!';
+                buttonElement.classList.add('copied');
+                
+                setTimeout(() => {
+                    buttonElement.textContent = originalText;
+                    buttonElement.classList.remove('copied');
+                }, 2000); // Revert back after 2 seconds
+            }).catch(err => {
+                console.error('无法复制文本: ', err);
+                alert('复制失败！请检查浏览器权限或使用现代浏览器。');
+            });
+        }
+    </script>
+
+</body>
+</html>
