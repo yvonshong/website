@@ -996,6 +996,10 @@ const bookmarksData = [
           {
             "name": "QQ浏览器帮小忙, 万能工具宝藏",
             "url": "https://tool.browser.qq.com/"
+          },
+          {
+            "name": "LKS SITE",
+            "url": "https://lkssite.vip/"
           }
         ]
       }
