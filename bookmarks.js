@@ -228,6 +228,10 @@ const bookmarksData = [
           {
             "name": "EVCARD",
             "url": "https://www.evcard.com/"
+          },
+          {
+            "name": "租租车",
+            "url": "https://www.zuzuche.com/"
           }
         ]
       },
@@ -274,6 +278,20 @@ const bookmarksData = [
           }
         ]
       },
+      {
+        "title": "出行信息查询",
+        "items": [
+          {
+            "name": "无人机禁飞区",
+            "url": "https://www.dji.com/cn/flysafe/geo-map"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "category": "天文地理",
+    "subsections": [
       {
         "title": "天气",
         "items": [
@@ -372,15 +390,6 @@ const bookmarksData = [
             "url": null
           }
         ]
-      },
-      {
-        "title": "出行信息查询",
-        "items": [
-          {
-            "name": "无人机禁飞区",
-            "url": "https://www.dji.com/cn/flysafe/geo-map"
-          }
-        ]
       }
     ]
   },
@@ -426,7 +435,7 @@ const bookmarksData = [
         "title": "记账",
         "items": [
           {
-            "name": "百事 AA 记账 app 小程序",
+            "name": "百事AA记账 app",
             "url": null
           },
           {
