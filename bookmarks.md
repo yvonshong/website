@@ -256,7 +256,8 @@
 - [据意查句](https://wantquotes.net/)
 - [汉语反向词典 万词王](https://wantwords.net/)
 - [微信公众号](https://mp.weixin.qq.com/)
-
+- [instagram font](https://lingojam.com/FontsForInstagram)
+- 
 
 ## 视频剪辑资源
 - [CG资源网](https://www.cgown.com/)
@@ -302,6 +303,11 @@
 - [鸠摩搜书](https://www.jiumodiary.com/)
 - [国家标准](http://openstd.samr.gov.cn/bzgk/gb/)
 - [全国图书馆参考咨询联盟](http://www.ucdrs.superlib.net/)
+
+## application
+- [instagram indown](https://indown.io/zh)
+- [igram](https://igram.world/zh/reels-downloader)
+
 
 # 新闻
 
