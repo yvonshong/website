@@ -7,6 +7,9 @@
 - [outlook calendar](https://outlook.live.com/calendar/0/view/month)
 - [ToDo](https://to-do.live.com/tasks/today)
 
+## note
+- [OneNote](https://onedrive.live.com/edit.aspx?resid=64F5982CEBA060FB!113&migratedtospo=true&wd=target%28%E5%BF%AB%E9%80%9F%E7%AC%94%E8%AE%B0.one%7Cf33bbb9b-8a40-4bb7-8700-0c5cbf3f896e%2F2022%20OKR%7C72548eb1-68ce-473d-9f30-ca608dd099f3%2F%29&wdorigin=NavigationUrl)
+
 
 # AI
 ## GPT
@@ -306,6 +309,7 @@
 - [今日热榜](https://tophub.today/)
 - [网站推荐](https://xiangjianan.gitee.io/lks/)
 - [wikihow](https://zh.wikihow.com/%E9%A6%96%E9%A1%B5)
+- [inoreader](https://www.inoreader.com/all_articles)
 
 ## 合辑网站
 - [有趣网址之家 收藏全球最有趣的网站](https://youquhome.com/)
