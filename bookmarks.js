@@ -1,5 +1,36 @@
 const bookmarksData = [
   {
+    "category": "日常",
+    "subsections": [
+      {
+        "title": "mail",
+        "items": [
+          {
+            "name": "qq mail",
+            "url": "https://wx.mail.qq.com/list/readtemplate?name=account_list.html"
+          },
+          {
+            "name": "gmail",
+            "url": "https://mail.google.com/mail/u/0/#inbox"
+          }
+        ]
+      },
+      {
+        "title": "行程",
+        "items": [
+          {
+            "name": "outlook calendar",
+            "url": "https://outlook.live.com/calendar/0/view/month"
+          },
+          {
+            "name": "ToDo",
+            "url": "https://to-do.live.com/tasks/today"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "category": "AI",
     "subsections": [
       {
@@ -34,6 +65,23 @@ const bookmarksData = [
             "url": "https://claude.ai/new"
           }
         ]
+      },
+      {
+        "title": "translate",
+        "items": [
+          {
+            "name": "deepl",
+            "url": "https://www.deepl.com/en/translator"
+          },
+          {
+            "name": "google translate",
+            "url": "https://translate.google.com/"
+          },
+          {
+            "name": "baidu fanyi",
+            "url": "http://fanyi.baidu.com/"
+          }
+        ]
       }
     ]
   },
@@ -66,7 +114,7 @@ const bookmarksData = [
         ]
       },
       {
-        "title": "日本",
+        "title": "日本景点",
         "items": [
           {
             "name": "日本 jalan",
@@ -293,6 +341,39 @@ const bookmarksData = [
     "category": "天文地理",
     "subsections": [
       {
+        "title": "地图",
+        "items": [
+          {
+            "name": "Google Maps",
+            "url": "https://www.google.co.jp/maps"
+          },
+          {
+            "name": "Google Earth",
+            "url": "https://earth.google.com/web/"
+          },
+          {
+            "name": "高德地图",
+            "url": "https://amap.com/"
+          },
+          {
+            "name": "百度地图",
+            "url": "http://map.baidu.com/"
+          },
+          {
+            "name": "兰图绘",
+            "url": "https://www.ldmap.net/"
+          },
+          {
+            "name": "房车营地",
+            "url": "https://share.dituhui.com/?key=6d5397e8a78dde91b11189a017fc5e86&t=1575785943180"
+          },
+          {
+            "name": "实时高度表 app",
+            "url": null
+          }
+        ]
+      },
+      {
         "title": "天气",
         "items": [
           {
@@ -355,39 +436,6 @@ const bookmarksData = [
           {
             "name": "巧摄",
             "url": "https://planitphoto.cn/"
-          }
-        ]
-      },
-      {
-        "title": "地图",
-        "items": [
-          {
-            "name": "Google Maps",
-            "url": "https://www.google.co.jp/maps"
-          },
-          {
-            "name": "Google Earth",
-            "url": "https://earth.google.com/web/"
-          },
-          {
-            "name": "高德地图",
-            "url": "https://amap.com/"
-          },
-          {
-            "name": "百度地图",
-            "url": "http://map.baidu.com/"
-          },
-          {
-            "name": "兰图绘",
-            "url": "https://www.ldmap.net/"
-          },
-          {
-            "name": "房车营地",
-            "url": "https://share.dituhui.com/?key=6d5397e8a78dde91b11189a017fc5e86&t=1575785943180"
-          },
-          {
-            "name": "实时高度表 app",
-            "url": null
           }
         ]
       }
@@ -700,6 +748,14 @@ const bookmarksData = [
           {
             "name": "微信 pc 防撤回",
             "url": "https://github.com/huiyadanli/RevokeMsgPatcher"
+          },
+          {
+            "name": "shadowsocks",
+            "url": "https://portal.shadowsocks.au/"
+          },
+          {
+            "name": "传文件",
+            "url": "https://airportal.cn/"
           }
         ]
       },
@@ -711,18 +767,45 @@ const bookmarksData = [
             "url": "https://www.iplaysoft.com/"
           }
         ]
-      },
+      }
+    ]
+  },
+  {
+    "category": "数据处理工具",
+    "subsections": [
       {
-        "title": "工具",
+        "title": "文档处理",
         "items": [
+          {
+            "name": "文档格式转换",
+            "url": "https://www.alltoall.net/"
+          },
+          {
+            "name": "格式转换",
+            "url": "https://www.aconvert.com/cn/"
+          },
+          {
+            "name": "白描 OCR",
+            "url": "https://web.baimiaoapp.com/"
+          },
           {
             "name": "扫描全能王",
             "url": "https://v3.camscanner.com/"
-          },
+          }
+        ]
+      },
+      {
+        "title": "临时注册",
+        "items": [
           {
             "name": "temp mail",
             "url": "https://temp-mail.org/"
-          },
+          }
+        ]
+      },
+      {
+        "title": "共享画布",
+        "items": [
           {
             "name": "在线画图",
             "url": "https://excalidraw.com/"
@@ -738,18 +821,6 @@ const bookmarksData = [
           {
             "name": "空白网页",
             "url": "data:text/html,%20<html%20contenteditable>"
-          },
-          {
-            "name": "翻译 deepl",
-            "url": "https://www.deepl.com/translator"
-          },
-          {
-            "name": "传文件",
-            "url": "https://airportal.cn/"
-          },
-          {
-            "name": "shadowsocks",
-            "url": "https://portal.shadowsocks.au/"
           }
         ]
       }
@@ -843,19 +914,6 @@ const bookmarksData = [
           {
             "name": "搞定设计",
             "url": "https://www.gaoding.com/introduction"
-          }
-        ]
-      },
-      {
-        "title": "文档处理",
-        "items": [
-          {
-            "name": "文档格式转换",
-            "url": "https://www.alltoall.net/"
-          },
-          {
-            "name": "格式转换",
-            "url": "https://www.aconvert.com/cn/"
           }
         ]
       }

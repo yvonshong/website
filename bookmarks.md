@@ -1,3 +1,13 @@
+# 日常
+## mail
+- [qq mail](https://wx.mail.qq.com/list/readtemplate?name=account_list.html)
+- [gmail](https://mail.google.com/mail/u/0/#inbox)
+
+## 行程
+- [outlook calendar](https://outlook.live.com/calendar/0/view/month)
+- [ToDo](https://to-do.live.com/tasks/today)
+
+
 # AI
 ## GPT
 - [Gemini](https://gemini.google.com/app)
@@ -7,6 +17,11 @@
 - [poe-chatgpt](https://poe.com/ChatGPT)
 - [kimi](https://www.kimi.com/)
 - [claude ai](https://claude.ai/new)
+
+## translate
+- [deepl](https://www.deepl.com/en/translator)
+- [google translate](https://translate.google.com/)
+- [baidu fanyi](http://fanyi.baidu.com/)
 
 
 # 旅游
@@ -18,7 +33,7 @@
 - [小红书](https://www.xiaohongshu.com/)
 - [秘境輿圖](https://www.atlasobscura.com/)
 
-## 日本
+## 日本景点
 - [日本 jalan](https://www.jalan.net/)
 - [日本海边车站](https://seaside-station.com/region/hokkaido/)
 - [ANA Blue Hangar Tour](https://ana-blue-hangar-tour.resv.jp/reserve/calendar.php)
@@ -84,6 +99,15 @@
 
 # 天文地理
 
+## 地图
+- [Google Maps](https://www.google.co.jp/maps)
+- [Google Earth](https://earth.google.com/web/)
+- [高德地图](https://amap.com/)
+- [百度地图](http://map.baidu.com/)
+- [兰图绘](https://www.ldmap.net/)
+- [房车营地](https://share.dituhui.com/?key=6d5397e8a78dde91b11189a017fc5e86&t=1575785943180)
+- 实时高度表 app
+
 ## 天气
 - [台风](http://typhoon.zjwater.gov.cn/default.aspx)
 - [windy](https://www.windy.com/)
@@ -102,14 +126,7 @@
 - [星图](https://stellarium-labs.com/stellarium-mobile-plus/)
 - [巧摄](https://planitphoto.cn/)
 
-## 地图
-- [Google Maps](https://www.google.co.jp/maps)
-- [Google Earth](https://earth.google.com/web/)
-- [高德地图](https://amap.com/)
-- [百度地图](http://map.baidu.com/)
-- [兰图绘](https://www.ldmap.net/)
-- [房车营地](https://share.dituhui.com/?key=6d5397e8a78dde91b11189a017fc5e86&t=1575785943180)
-- 实时高度表 app
+
 
 # 娱乐
 
@@ -203,20 +220,31 @@
 
 ## 装机
 - [微信 pc 防撤回](https://github.com/huiyadanli/RevokeMsgPatcher)
+- [shadowsocks](https://portal.shadowsocks.au/)
+- [传文件](https://airportal.cn/)
 
 ## 软件购买
 - [异次元软件世界](https://www.iplaysoft.com/)
 
-## 工具
+# 数据处理工具
+
+## 文档处理
+- [文档格式转换](https://www.alltoall.net/)
+- [格式转换](https://www.aconvert.com/cn/)
+
+- [白描 OCR](https://web.baimiaoapp.com/)
 - [扫描全能王](https://v3.camscanner.com/)
+
+## 临时注册
 - [temp mail](https://temp-mail.org/)
+
+## 共享画布
 - [在线画图](https://excalidraw.com/)
 - [在线画布](https://canvas.apps.chrome/)
 - [在线画布](https://miro.com/signup/)
 - [空白网页](data:text/html,%20<html%20contenteditable>)
-- [翻译 deepl](https://www.deepl.com/translator)
-- [传文件](https://airportal.cn/)
-- [shadowsocks](https://portal.shadowsocks.au/)
+
+
 
 # 创造
 
@@ -225,6 +253,7 @@
 - [据意查句](https://wantquotes.net/)
 - [汉语反向词典 万词王](https://wantwords.net/)
 - [微信公众号](https://mp.weixin.qq.com/)
+
 
 ## 视频剪辑资源
 - [CG资源网](https://www.cgown.com/)
@@ -245,9 +274,6 @@
 - [删除图片背景](https://www.remove.bg/)
 - [搞定设计](https://www.gaoding.com/introduction)
 
-## 文档处理
-- [文档格式转换](https://www.alltoall.net/)
-- [格式转换](https://www.aconvert.com/cn/)
 
 # 下载
 
