@@ -327,3 +327,4 @@
 - [优优网](https://uiiiuiii.com/tools)
 - [QQ浏览器帮小忙, 万能工具宝藏](https://tool.browser.qq.com/)
 - [LKS SITE](https://lkssite.vip/)
+- [AI工具集](https://ai-bot.cn/)
