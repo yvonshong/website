@@ -316,6 +316,7 @@
 - [网站推荐](https://xiangjianan.gitee.io/lks/)
 - [wikihow](https://zh.wikihow.com/%E9%A6%96%E9%A1%B5)
 - [inoreader](https://www.inoreader.com/all_articles)
+- [animagraffs](https://animagraffs.com/)
 
 ## 合辑网站
 - [有趣网址之家 收藏全球最有趣的网站](https://youquhome.com/)
