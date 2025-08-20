@@ -12,7 +12,7 @@
 
 
 # AI
-## GPT
+## LLM
 - [Gemini](https://gemini.google.com/app)
 - [deepseek](https://chat.deepseek.com/)
 - [chatgpt](https://chatgpt.com/)
@@ -21,7 +21,7 @@
 - [kimi](https://www.kimi.com/)
 - [claude ai](https://claude.ai/new)
 
-## translate
+## 翻译
 - [deepl](https://www.deepl.com/en/translator)
 - [google translate](https://translate.google.com/)
 - [baidu fanyi](http://fanyi.baidu.com/)
