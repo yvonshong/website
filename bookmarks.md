@@ -20,6 +20,7 @@
 - [poe-chatgpt](https://poe.com/ChatGPT)
 - [kimi](https://www.kimi.com/)
 - [claude ai](https://claude.ai/new)
+- [豆包](https://www.doubao.com/chat/)
 
 ## 翻译
 - [deepl](https://www.deepl.com/en/translator)
@@ -86,6 +87,7 @@
 
 ## 飞机
 - [天巡](https://www.tianxun.com/)
+- [谷歌票务](https://www.google.com/travel/flights)
 - [航线图](https://map.variflight.com/)
 - [flightradar24](https://www.flightradar24.com/)
 - [飞常准](https://map.variflight.com/)
@@ -224,6 +226,7 @@
 ## 装机
 - [微信 pc 防撤回](https://github.com/huiyadanli/RevokeMsgPatcher)
 - [shadowsocks](https://portal.shadowsocks.au/)
+- [SSRDOG](https://dog.hosbbq.com/)
 - [传文件](https://airportal.cn/)
 
 ## 软件购买
