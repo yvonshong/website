@@ -156,12 +156,12 @@
       justify-content: center;
       text-decoration: none;
       color: var(--text-primary);
-      padding: 20px 15px;
+      padding: 15px 10px;
       background-color: var(--card-bg);
       border: 1px solid var(--card-border);
       border-radius: 16px;
       transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-      height: 100px;
+      height: 110px;
       text-align: center;
       position: relative;
       overflow: hidden;
@@ -197,18 +197,35 @@
     .card img {
       width: 40px;
       height: 40px;
-      margin-bottom: 12px;
+      margin-bottom: 8px;
       border-radius: 8px;
       transition: transform 0.3s ease;
       filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2));
     }
 
-    .card span {
+    .card span.name {
       font-size: 13px;
       line-height: 1.4;
       font-weight: 400;
       color: var(--text-primary);
       z-index: 1;
+      margin-bottom: 4px;
+      display: block;
+      width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .card span.desc {
+      font-size: 10px;
+      color: var(--text-secondary);
+      max-width: 40px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      display: block;
+      margin: 0 auto;
     }
 
     .no-link {
@@ -264,8 +281,8 @@
     function buildPageFromData(data) {
       const tabsContainer = document.getElementById('tabs-container');
       const contentContainer = document.getElementById('content-container');
-      const defaultIcon = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjNTU1IiBkPSJNMTAgNHYyYTggOCAwIDAgMCA4IDhoMmExMCAxMCAwIDAgMS0xMCAxMFY0Wm0xMC4wMDggMi44MjhsMS40MTQgMS40MTRMMTUuNTU0IDEybDEuNDM4IDIuNzU4bC0yLjg1NyAyLjM5OEwxMyAxMy41VjExbDIuMDA4LS43MTRaTTMuOTkyIDQuMjIybC0xLjQxNCAxLjQxNEw4LjQ0NiAxMmwzLjU2MiA2LjQ2MWwyLjg1Ny0yLjM5OEw5IDEwLjVWMTNsLTIuMDA4LjcxNFoiLz48L3N2Zz4=';
-      const appIcon = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM1NTUiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cmVjdCB4PSI1IiB5PSIyIiB3aWR0aD0iMTQiIGhlaWdodD0iMjAiIHJ4PSIyIiByeT0iMiI+PC9yZWN0PjxsaW5lIHgxPSIxMiIgeTE9IjE4IiB4Mj0iMTIuMDEiIHkyPSIxOCI+PC9saW5lPjwvc3ZnPg==';
+      const defaultIcon = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjNTU1IiBkPSJNMTAgNHYyYTggOCAwIDAgMCA4IDhoMmExMCAxMCAwIDAgMS0xMCAxMFY0Wm0xMC4wMDggMi44MjhsMS40MTQgMS40MTRMMTUuNTU0IDEybDEuNDM4IDIuNzU4bC0yLjg1NyAyLjM5OEwxMyAxMy41VjExbDIuMDA4LS43MTRZTTMuOTkyIDQuMjIybC0xLjQxNCAxLjQxNEw4LjQ0NiAxMmwzLjU2MiA2LjQ2MWwyLjg1Ny0yLjM5OEw5IDEwLjVWMTNMLTIuMDA4LjcxNFoiLz48L3N2Zz4=';
+      const appIcon = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM1NTUiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cmVjdCB4PSI1IiB5PSIyIiB3aWR0aD0iMTQiIGhlaWdodD0iMjAiIHJ4PSIyIiByeT0iMiI+PC9yZWN0PjxsaW5lIHgxPSIxMiIgeTE9IjE4IiB4Mj0iMTIiIHkyPSIxOCI+PC9saW5lPjwvc3ZnPg==';
 
       data.forEach((category, index) => {
         const panelId = `panel-${index}`;
@@ -294,26 +311,50 @@
           mainCategoryDiv.appendChild(ul);
 
           subsection.items.forEach(item => {
-            const { name, url } = item;
+            const {
+              name,
+              url,
+              description
+            } = item;
             const li = document.createElement('li');
             li.className = 'grid-item';
             const card = url ? document.createElement('a') : document.createElement('div');
             card.className = url ? 'card' : 'card no-link';
-            if (url) { card.href = url; card.target = "_blank"; }
+            if (url) {
+              card.href = url;
+              card.target = "_blank";
+            }
 
             const img = document.createElement('img');
-            const iconSpan = document.createElement('span');
-            iconSpan.textContent = name;
+            const nameSpan = document.createElement('span');
+            nameSpan.className = 'name';
+            nameSpan.textContent = name;
 
             card.appendChild(img);
-            card.appendChild(iconSpan);
+            card.appendChild(nameSpan);
+
+            if (description) {
+              const descSpan = document.createElement('span');
+              descSpan.className = 'desc';
+              descSpan.textContent = description;
+              descSpan.title = description; // Show full text on hover
+              card.appendChild(descSpan);
+            }
+
             li.appendChild(card);
             ul.appendChild(li);
 
             if (url) {
-              // Use iowen.cn favicon service for better China accessibility
-              img.src = `https://api.iowen.cn/favicon/${new URL(url).hostname}.png`;
-              img.onerror = () => { img.src = defaultIcon; };
+              try {
+                const domain = new URL(url).hostname;
+                // Reverted to Google Favicon service as requested
+                img.src = `https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://${domain}&size=64`;
+                img.onerror = () => {
+                  img.src = defaultIcon;
+                };
+              } catch (e) {
+                img.src = defaultIcon;
+              }
             } else {
               img.src = name.toLowerCase().includes('app') ? appIcon : defaultIcon;
             }

@@ -10,9 +10,8 @@ def parse_markdown(md_content):
     current_subsection = None
 
     # 正则表达式来匹配不同类型的行
-    # 注意：为了简单起见，我们假设 ## 和 - 前面总是有 #。
-    # 真实的解析器会更复杂。
-    link_regex = re.compile(r"-\s*(.*?)\s*(?:\[(.*?)\]\((.*?)\))?\s*$")
+    # 匹配格式: - [Name](URL) - Description 或 - [Name](URL)
+    link_regex = re.compile(r"-\s*(?:\[(.*?)\]\((.*?)\))(?:\s*-\s*(.*))?\s*$")
 
     for line in md_content.splitlines():
         line = line.strip()
@@ -45,20 +44,13 @@ def parse_markdown(md_content):
             match = link_regex.match(line)
             if match:
                 name_text = match.group(1).strip()
-                link_text = match.group(2)
-                url = match.group(3)
-
-                # 确定最终的名称和链接
-                final_name = name_text or link_text or ""
-                final_url = url.strip() if url else None
-                
-                # 特殊处理 "文本 [链接文本](链接)" 格式
-                if name_text and link_text:
-                    final_name = f"{name_text} ({link_text.strip()})"
+                url = match.group(2).strip()
+                description = match.group(3).strip() if match.group(3) else ""
 
                 current_subsection["items"].append({
-                    "name": final_name,
-                    "url": final_url
+                    "name": name_text,
+                    "url": url,
+                    "description": description
                 })
 
     return data
