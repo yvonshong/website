@@ -154,11 +154,11 @@
       opacity: 0.3;
     }
 
-    /* Grid */
+    /* Grid - Adjusted min-width to accommodate wider text */
     .grid-container {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
-      /* Smaller min-width for compact look */
+      /* Changed from 90px to 140px to fit the 120px text comfortably */
+      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
       gap: 20px;
       padding: 0;
       list-style: none;
@@ -189,7 +189,6 @@
       text-decoration: none;
       color: var(--text-primary);
       padding: 15px 5px;
-      /* Reduced padding */
       background-color: var(--card-bg);
       border: 1px solid var(--card-border);
       border-radius: 12px;
@@ -237,6 +236,7 @@
       transform: scale(1.1) rotate(5deg);
     }
 
+    /* Name Text - Width increased to 120px */
     .card span.name {
       font-size: 12px;
       line-height: 1.4;
@@ -245,18 +245,17 @@
       z-index: 1;
       margin-bottom: 4px;
       display: block;
-      max-width: 40px;
-      /* Strict width constraint */
+      max-width: 120px; /* Changed from 40px to 120px (3x icon width) */
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
     }
 
+    /* Description Text - Width increased to 120px */
     .card span.desc {
       font-size: 9px;
       color: var(--text-secondary);
-      max-width: 40px;
-      /* Strict width constraint */
+      max-width: 120px; /* Changed from 40px to 120px (3x icon width) */
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
