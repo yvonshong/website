@@ -9,7 +9,7 @@
 
 ## note
 - [OneNote](https://onedrive.live.com/edit.aspx?resid=64F5982CEBA060FB!113&migratedtospo=true&wd=target%28%E5%BF%AB%E9%80%9F%E7%AC%94%E8%AE%B0.one%7Cf33bbb9b-8a40-4bb7-8700-0c5cbf3f896e%2F2022%20OKR%7C72548eb1-68ce-473d-9f30-ca608dd099f3%2F%29&wdorigin=NavigationUrl) - 笔记应用
-
+- [Notion](https://www.notion.com/) - Notion
 
 # AI
 ## LLM
@@ -21,6 +21,7 @@
 - [kimi](https://www.kimi.com/) - 月之暗面
 - [claude ai](https://claude.ai/new) - Anthropic
 - [豆包](https://www.doubao.com/chat/) - 字节跳动
+- [Qwen](https://chat.qwen.ai/) - 千问
 
 ## 翻译
 - [deepl](https://www.deepl.com/en/translator) - 精准翻译
@@ -228,6 +229,8 @@
 - [shadowsocks](https://portal.shadowsocks.au/) - 网络工具
 - [SSRDOG](https://dog.hosbbq.com/) - 机场推荐
 - [传文件](https://airportal.cn/) - 快传助手
+- [TailScale VPN](https://login.tailscale.com/admin/machines) - TailScale VPN
+
 
 ## 软件购买
 - [异次元软件世界](https://www.iplaysoft.com/) - 软件推荐
