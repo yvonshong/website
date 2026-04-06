@@ -1,336 +1,964 @@
-# 日常
-## mail
-- [qq mail](https://wx.mail.qq.com/list/readtemplate?name=account_list.html) - 腾讯邮箱
-- [gmail](https://mail.google.com/mail/u/0/#inbox) - 谷歌邮箱
-
-## 行程
-- [outlook calendar](https://outlook.live.com/calendar/0/view/month) - 日历日程
-- [ToDo](https://to-do.live.com/tasks/today) - 待办事项
-
-## note
-- [OneNote](https://onedrive.live.com/edit.aspx?resid=64F5982CEBA060FB!113&migratedtospo=true&wd=target%28%E5%BF%AB%E9%80%9F%E7%AC%94%E8%AE%B0.one%7Cf33bbb9b-8a40-4bb7-8700-0c5cbf3f896e%2F2022%20OKR%7C72548eb1-68ce-473d-9f30-ca608dd099f3%2F%29&wdorigin=NavigationUrl) - 笔记应用
-- [Notion](https://www.notion.com/) - Notion
-
-# AI
-## LLM
-- [Gemini](https://gemini.google.com/app) - 谷歌AI
-- [deepseek](https://chat.deepseek.com/) - 深度求索
-- [chatgpt](https://chatgpt.com/) - OpenAI
-- [poe-ds](https://poe.com/DeepSeek-R1) - Poe聚合
-- [poe-chatgpt](https://poe.com/ChatGPT) - Poe聚合
-- [kimi](https://www.kimi.com/) - 月之暗面
-- [claude ai](https://claude.ai/new) - Anthropic
-- [豆包](https://www.doubao.com/chat/) - 字节跳动
-- [Qwen](https://chat.qwen.ai/) - 千问
-
-## 翻译
-- [deepl](https://www.deepl.com/en/translator) - 精准翻译
-- [google translate](https://translate.google.com/) - 谷歌翻译
-- [baidu fanyi](http://fanyi.baidu.com/) - 百度翻译
-
-
-# 旅游
-
-## 攻略
-- [马蜂窝](http://www.mafengwo.cn/) - 旅游攻略
-- [知乎](http://zhihu.com/) - 问答社区
-- [穷游](https://www.qyer.com/) - 出境游
-- [小红书](https://www.xiaohongshu.com/) - 生活分享
-- [秘境輿圖](https://www.atlasobscura.com/) - 小众景点
-
-## 日本景点
-- [日本 jalan](https://www.jalan.net/) - 酒店预订
-- [日本海边车站](https://seaside-station.com/region/hokkaido/) - 绝景车站
-- [ANA Blue Hangar Tour](https://ana-blue-hangar-tour.resv.jp/reserve/calendar.php) - 机库参观
-- [JAL Sky Museum](https://jalfactorytour.my.salesforce-sites.com/rselectcourse?month=7&numberOfPeople=1&useWheelchair=%25E4%25B8%258D%25E8%25A6%2581%2BUnnecessary&year=2025) - 航空博物馆
-- [首都圏外郭放水路](https://reserva.be/guidetour) - 地下神殿
-
-
-## 门票
-- [马蜂窝](http://www.mafengwo.cn/) - 景点门票
-- [美团](https://www.meituan.com/) - 团购优惠
-- [大众点评](http://dianping.com/) - 生活指南
-
-## 住宿
-- [爱彼迎](https://airbnb.com/) - 民宿预订
-- [飞猪](https://www.fliggy.com/) - 阿里旅行
-- [携程](http://ctrip.com/) - 机票酒店
-- [去哪儿](http://www.qunar.com/) - 特价机票
-
-## 美食
-- [大众点评](http://dianping.com/) - 美食点评
-- [欧美大众点评 Yelp](https://www.yelp.com/) - 欧美点评
-- [Trip Advisor](https://www.tripadvisor.com/) - 猫途鹰
-- [日本 Tabelog](https://tabelog.com/cn/) - 日本点评
-- [日本 GURUNAVI](https://gurunavi.com/) - 美食指南
-- [英国 Deliveroo](https://deliveroo.co.uk/) - 英国外卖
-- 韩国 Mango Plate (服务已停止)
-- [澳门 食在澳门](http://www.foodmacau.com/) - 澳门美食
-- [新加坡 Burpple](https://www.burpple.com/) - 新加坡美食
-- [新加坡 Hungry Go Where](https://www.hungrygowhere.com/) - 美食指南
-- [印尼 Qraved](https://www.qraved.com/) - 印尼美食
-- [香港 Openrice](https://www.openrice.com/zh/hongkong) - 开饭喇
-- [台湾 爱食记](https://ifoodie.tw/) - 台湾美食
-- [四万公里](https://www.40000km.com/) - 美食旅行
-- [Zomato](https://www.zomato.com/) - 国际点评
-- [美国中文网](http://www.sinovision.net/food.php) - 中餐资讯
-- [全球美食地图](https://www.tasteatlas.com/search) - 美食百科
-
-# 出行
-
-## 租车
-- [神州租车](https://www.zuche.com/) - 国内租车
-- [一嗨租车](https://www.1hai.cn/) - 连锁租车
-- [携程租车](https://car.ctrip.com/) - 平台租车
-- [摩范出行](http://www.mofuntrip.com/) - 共享汽车
-- [EVCARD](https://www.evcard.com/) - 电动共享
-- [租租车](https://www.zuzuche.com/) - 境外租车
-
-## 飞机
-- [天巡](https://www.tianxun.com/) - 机票比价
-- [谷歌票务](https://www.google.com/travel/flights) - 航班查询
-- [航线图](https://map.variflight.com/) - 航线可视
-- [flightradar24](https://www.flightradar24.com/) - 航班追踪
-- [飞常准](https://map.variflight.com/) - 航班动态
-- [航旅纵横](http://www.umetrip.com/) - 行程管理
-
-## 航船
-- [船讯网](http://www.shipxy.com/) - 船舶追踪
-
-## 火车
-- [12306](https://www.12306.cn/) - 铁路官网
-
-## 出行信息查询
-- [无人机禁飞区](https://www.dji.com/cn/flysafe/geo-map) - 限飞查询
-
-# 天文地理
-
-## 地图
-- [Google Maps](https://www.google.co.jp/maps) - 谷歌地图
-- [Google Earth](https://earth.google.com/web/) - 谷歌地球
-- [高德地图](https://amap.com/) - 导航地图
-- [百度地图](http://map.baidu.com/) - 百度导航
-- [兰图绘](https://www.ldmap.net/) - 地图绘制
-- [房车营地](https://share.dituhui.com/?key=6d5397e8a78dde91b11189a017fc5e86&t=1575785943180) - 营地地图
-- 实时高度表 app
-
-## 天气
-- [台风](http://typhoon.zjwater.gov.cn/default.aspx) - 台风路径
-- [windy](https://www.windy.com/) - 全球气象
-- [卫星图](https://zoom.earth/) - 实时云图
-- [彩云天气](http://www.caiyunapp.com/) - 分钟预报
-
-## 银河天相
-- [光污染地图](https://www.lightpollutionmap.info) - 光害查询
-- [光污染地图](https://www.darkmap.cn/) - 暗夜地图
-- [Stellarium](http://stellarium.org/) - 虚拟天文
-- [heavens-above](https://www.heavens-above.com/) - 卫星预测
-- [Deep Sky Stacker](http://deepskystacker.free.fr/) - 天文叠加
-- 莉景天气 APP/小程序
-- 天文通 小程序
-- [星空](https://stellarium-web.org/) - 在线星图
-- [星图](https://stellarium-labs.com/stellarium-mobile-plus/) - 移动星图
-- [巧摄](https://planitphoto.cn/) - 摄影计划
-
-
-
-# 娱乐
-
-## 活动
-- [活动行](https://www.huodongxing.com/) - 活动报名
-- [大麦](https://www.damai.cn/) - 票务平台
-- [iMuseum](http://www.imuseum.cn/) - 每日环球
-
-## 租物
-- [内啥](https://www.neisha.cc/) - 信用租赁
-- [探物](http://www.tanwuz.com/) - 数码租赁
-
-# 金融
-
-## 记账
-- 百事AA记账 app
-- [随手记](https://www.sui.com/) - 记账理财
-
-## 信用卡
-- [wise](https://wise.com/) - 跨境汇款
-- [revolut](https://www.revolut.com/) - 数字银行
-
-# 学习
-
-## 数学
-- [3D Rotation Converter](https://www.andre-gaschler.com/rotationconverter/) - 旋转转换
-- [不定积分计算器](https://zh.numberempire.com/integralcalculator.php) - 积分计算
-- [mathway](https://www.mathway.com/Algebra) - 数学求解
-- [symbolab](https://www.symbolab.com/solver/integral-calculator) - 步骤求解
-- [InstaCalc](https://instacalc.com/) - 即时计算
-- [在线手绘数学](https://webdemo.myscript.com/) - 手写识别
-- [wolfram](https://www.wolframalpha.com/) - 知识引擎
-- [数学公式 latex](https://zh.wikipedia.org/zh-cn/Help:%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F) - 公式语法
-- [状态估计](https://www.lukesy.net/docs/self-study/barfoot-ser/) - 机器人学
-
-## 课程
-- [计算机课程 163](https://study.163.com/curricula/cs.htm) - 网易云课
-- [51CTO](https://edu.51cto.com/) - IT培训
-- [日语课](http://class.taoyu360.com.cn/taoyu360?intercept=0) - 在线日语
-- [coursera](https://www.coursera.org/) - 在线课程
-
-## 学术
-- [知网](https://www.cnki.net/) - 学术论文
-- [超星](http://www.chaoxing.com/) - 数字图书
-- [AI Reads Science](https://www.aminer.org/) - 学术搜索
-
-## 资料
-- [东南大学全景](https://720yun.com/t/b242awafq1g?scene_id=14810) - 校园全景
-- [集智俱乐部·注意力与知识管理群 的共享知识管理系统](https://swarma-km.hintsnet.com/) - 知识管理
-- [全历史](https://www.allhistory.com/) - 历史图谱
-- [南宝瓶座δ流星雨 meteor shower](https://www.meteorshowers.org/) - 流星雨
-- [权威数据 海量聚合](https://www.dydata.io/) - 数据聚合
-- [测测你的眼睛对色差的辨识度](http://www.cuishuai.cc/game/) - 色彩测试
-- [彩虹屁生成器](https://chp.shadiao.app/) - 趣味生成
-- [web cam](https://www.skylinewebcams.com/) - 实时监控
-- [pixelspace_solarsystem](https://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html) - 太阳系
-- [报告查一查](https://report.seedsufe.com/#/report) - 研报查询
-- [标准地图服务](http://bzdt.ch.mnr.gov.cn/index.html) - 官方地图
-- [地图书人文地理知识库](https://www.ageeye.cn/) - 人文地理
-
-# 编程
-
-## 在线编程
-- [假装编程](https://geektyper.com/) - 黑客模拟
-- [在线编程](https://replit.com/languages) - 云端IDE
-- [在线 matlab](https://octave-online.net/) - Octave
-
-## 算法可视化
-- [算法可视化](https://algorithm-visualizer.org/) - 算法演示
-- [可视化](https://visualgo.net/en) - 数据结构
-
-## 手册
-- [cpp ref](http://www.cplusplus.com/) - C++参考
-- [常用API文档索引](https://tool.oschina.net/apidocs) - API文档
-
-## 刷题
-- [牛客](https://www.nowcoder.com/) - 求职刷题
-- [leetcode](https://leetcode.com/) - 力扣编程
-- [九章算法](https://www.jiuzhang.com/solutions/) - 算法面试
-- [hihocoder](http://hihocoder.com/) - 编程竞赛
-- [lintcode](https://www.lintcode.com/) - 代码面试
-
-## 域名
-- [西部数码](https://www.west.cn/login.asp?pageStr=/manager/domain/rsall.asp) - 域名注册
-
-## 编程工具
-- [feed creator](http://createfeed.fivefilters.org/) - RSS生成
-- [followthatpage](https://www.followthatpage.com/) - 网页监控
-
-# 电脑软件
-
-## 装机
-- [微信 pc 防撤回](https://github.com/huiyadanli/RevokeMsgPatcher) - 微信补丁
-- [shadowsocks](https://portal.shadowsocks.au/) - 网络工具
-- [SSRDOG](https://dog.hosbbq.com/) - 机场推荐
-- [传文件](https://airportal.cn/) - 快传助手
-- [TailScale VPN](https://login.tailscale.com/admin/machines) - TailScale VPN
-
-
-## 软件购买
-- [异次元软件世界](https://www.iplaysoft.com/) - 软件推荐
-
-# 数据处理工具
-
-## 文档处理
-- [文档格式转换](https://www.alltoall.net/) - 格式转换
-- [格式转换](https://www.aconvert.com/cn/) - 在线转换
-
-- [白描 OCR](https://web.baimiaoapp.com/) - 文字识别
-- [扫描全能王](https://v3.camscanner.com/) - 文档扫描
-
-## 临时注册
-- [temp mail](https://temp-mail.org/) - 临时邮箱
-
-## 共享画布
-- [在线画图](https://excalidraw.com/) - 手绘风格
-- [在线画布](https://canvas.apps.chrome/) - 谷歌画布
-- [在线画布](https://miro.com/signup/) - 协作白板
-- [空白网页](data:text/html,%20<html%20contenteditable>) - 极简笔记
-
-
-
-# 创造
-
-## 写作
-- [在线 latex](https://www.overleaf.com/) - 论文写作
-- [据意查句](https://wantquotes.net/) - 句子搜索
-- [汉语反向词典 万词王](https://wantwords.net/) - 词汇搜索
-- [微信公众号](https://mp.weixin.qq.com/) - 公众平台
-- [instagram font](https://lingojam.com/FontsForInstagram) - 字体生成
-- 
-
-## 视频剪辑资源
-- [CG资源网](https://www.cgown.com/) - CG素材
-- [AE模板](https://www.newcger.com/) - 视频模板
-- [Adobe 资源](http://adobe.v404.cn/adobe/) - 软件下载
-- [删除视频背景](https://www.unscreen.com/) - 视频抠图
-- [游戏3D地图](https://noclip.website/) - 游戏场景
-- [视频字幕](https://2zimu.com/#/) - 双语字幕
-
-## PPT
-- [第一 ppt](https://www.1ppt.com/) - PPT模板
-- [slidesgo](https://slidesgo.com/theme/isometric-proposal) - 谷歌幻灯
-- [officeplus](https://www.officeplus.cn/) - 微软官方
-- [词云](https://www.weiciyun.com/) - 词云生成
-
-## 图片
-- [千亿像素看中国](http://pf.bigpixel.cn/zh-CN.html) - 全景图片
-- [删除图片背景](https://www.remove.bg/) - 图片抠图
-- [搞定设计](https://www.gaoding.com/introduction) - 在线设计
-
-
-# 下载
-
-## 浏览器插件
-- [浏览器插件列表](https://github.com/yvonshong/website/blob/master/web-browser-expansion.md) - 插件推荐
-
-## 搜索
-- [海盗湾](https://thepiratebay.by/) - BT下载
-- [BT天堂](http://www.bttiantang.com/) - 电影下载
-- [云搜](http://www.daysou.com/) - 网盘搜索
-- [印象](https://impress.pw/) - 资源搜索
-- [duckduckgo](https://duckduckgo.com/) - 隐私搜索
-- [最专业ip数据库、手机号数据库、列车时刻数据库](http://www.123cha.com/) - 综合查询
-- [AOL](https://www.aol.com/) - 美国在线
-
-## 电影资源
-- [努努影院](https://www.nunuyy1.org/) - 在线影视
-
-## 电子书
-- [知乎汇总](https://www.zhihu.com/question/267327916/answer/2195303727) - 书单汇总
-- [IT 电子书](https://it-ebooks.info/) - 技术书籍
-- [图灵](https://www.ituring.com.cn/) - 图灵社区
-- [鸠摩搜书](https://www.jiumodiary.com/) - 电子书搜
-- [国家标准](http://openstd.samr.gov.cn/bzgk/gb/) - 国标查询
-- [全国图书馆参考咨询联盟](http://www.ucdrs.superlib.net/) - 文献传递
-
-## application
-- [instagram indown](https://indown.io/zh) - IG下载
-- [igram](https://igram.world/zh/reels-downloader) - Reels下载
-
-
-# 新闻
-
-## 信息
-- [今日热榜](https://tophub.today/) - 聚合热点
-- [网站推荐](https://xiangjianan.gitee.io/lks/) - 站点分享
-- [wikihow](https://zh.wikihow.com/%E9%A6%96%E9%A1%B5) - 生活指南
-- [inoreader](https://www.inoreader.com/all_articles) - RSS阅读
-- [animagraffs](https://animagraffs.com/) - 机械原理
-
-## 合辑网站
-- [有趣网址之家 收藏全球最有趣的网站](https://youquhome.com/) - 趣味导航
-- [即时工具](https://www.67tool.com/) - 在线工具
-- [MikuTools - 工具集合](https://tools.miku.ac/) - 极简工具
-- [精选创意导航](https://creativemass.cn/#/) - 创意设计
-- [考拉新媒体导航](https://www.kaolamedia.com/) - 运营工具
-- [优优网](https://uiiiuiii.com/tools) - 设计教程
-- [QQ浏览器帮小忙, 万能工具宝藏](https://tool.browser.qq.com/) - 腾讯工具
-- [LKS SITE](https://lkssite.vip/) - 个人导航
-- [AI工具集](https://ai-bot.cn/) - AI导航
+# Bookmarks
+
+- [qq mail](https://wx.mail.qq.com/list/readtemplate?name=account_list.html)
+  - 日常, mail, 腾讯邮箱, 邮件, QQ邮箱, 工具, 通讯
+- [gmail](https://mail.google.com/mail/u/0/#inbox)
+  - 日常, mail, 谷歌邮箱, Gmail, 邮件, Google, 办公, 工具
+- [outlook calendar](https://outlook.live.com/calendar/0/view/month)
+  - 日常, 行程, 日历, 时间管理, 效率工具, 办公, Microsoft, Outlook
+- [ToDo](https://to-do.live.com/tasks/today)
+  - 日常, 待办事项, 任务管理, 效率, 工具, 微软
+- [OneNote](https://onedrive.live.com/edit.aspx?resid=64F5982CEBA060FB!113&migratedtospo=true&wd=target%28%E5%BF%AB%E9%80%9F%E7%AC%94%E8%AE%B0.one%7Cf33bbb9b-8a40-4bb7-8700-0c5cbf3f896e%2F2022%20OKR%7C72548eb1-68ce-473d-9f30-ca608dd099f3%2F%29&wdorigin=NavigationUrl)
+  - 日常, note, 笔记应用, OneNote, OKR, 目标管理, 生产力, Office
+- [Notion](https://www.notion.com/)
+  - 笔记, note, Notion, 生产力, 项目管理, 协作, 知识库, 日常
+- [Gemini](https://gemini.google.com/app)
+  - AI, LLM, 谷歌AI, 聊天机器人, 对话式AI, 生产力工具, 谷歌
+- [deepseek](https://chat.deepseek.com/)
+  - AI, LLM, 深度求索, DeepSeek, 聊天机器人, Chatbot, 生产力工具
+- [chatgpt](https://chatgpt.com/)
+  - AI, LLM, OpenAI, Chatbot, NLP, Productivity
+- [poe-ds](https://poe.com/DeepSeek-R1)
+  - AI, LLM, Poe, DeepSeek, DeepSeek-R1, 聊天机器人, 推理模型
+- [poe-chatgpt](https://poe.com/ChatGPT)
+  - AI, LLM, Poe聚合, ChatGPT, OpenAI, 聊天机器人
+- [kimi](https://www.kimi.com/)
+  - AI, LLM, 月之暗面, 人工智能, 聊天机器人, 大模型, Moonshot AI, 生产力工具
+- [claude ai](https://claude.ai/new)
+  - AI, LLM, Anthropic, Chatbot, Generative AI, Assistant
+- [豆包](https://www.doubao.com/chat/)
+  - AI, LLM, 字节跳动, 聊天机器人, 大模型, 生产力工具
+- [Qwen](https://chat.qwen.ai/)
+  - AI, LLM, 千问, 通义千问, 阿里巴巴, Chatbot, 生成式AI
+- [deepl](https://www.deepl.com/en/translator)
+  - AI, 翻译, 精准翻译, 工具, 在线翻译
+- [google translate](https://translate.google.com/)
+  - AI, 翻译, 谷歌翻译, Google, 在线翻译, 工具, 语言
+- [baidu fanyi](http://fanyi.baidu.com/)
+  - AI, 翻译, 百度翻译, 百度, 在线翻译, 工具, 语言, Baidu
+- [马蜂窝](http://www.mafengwo.cn/)
+  - 旅游, 攻略, 旅游攻略, 游记, 自由行, 酒店预订, 社区, 度假
+- [知乎](http://zhihu.com/)
+  - 问答社区, 知识分享, 社交, 综合, 内容社区
+- [穷游](https://www.qyer.com/)
+  - 旅游, 攻略, 出境游, 游记, 社区, 自由行, 签证
+- [小红书](https://www.xiaohongshu.com/)
+  - 旅游, 攻略, 生活分享, 社交, 社区, 时尚, 美妆, 种草
+- [秘境輿圖](https://www.atlasobscura.com/)
+  - 旅游, 攻略, 小众景点, 秘境, 地理, 历史, 猎奇, 文化
+- [日本 jalan](https://www.jalan.net/)
+  - 旅游, 日本旅游, 酒店预订, 住宿, 民宿, 日本景点
+- [日本海边车站](https://seaside-station.com/region/hokkaido/)
+  - 旅游, 日本景点, 绝景车站, 北海道, 铁道旅行, 摄影, 海边
+- [ANA Blue Hangar Tour](https://ana-blue-hangar-tour.resv.jp/reserve/calendar.php)
+  - 旅游, 日本景点, 机库参观, 全日空, ANA, 航空, 羽田机场, 预约, 东京
+- [JAL Sky Museum](https://jalfactorytour.my.salesforce-sites.com/rselectcourse?month=7&numberOfPeople=1&useWheelchair=%25E4%25B8%258D%25E8%25A6%2581%2BUnnecessary&year=2025)
+  - 旅游, 日本景点, 航空博物馆, JAL, 东京, 工厂参观, 预约, 羽田机场
+- [首都圏外郭放水路](https://reserva.be/guidetour)
+  - 旅游, 日本景点, 地下神殿, 埼玉, 水利工程, 建筑, 工业旅游, 预约
+- [马蜂窝](http://www.mafengwo.cn/)
+  - 旅游, 旅游攻略, 游记, 自由行, 门票, 景点门票, 酒店预订, 旅游社区, 度假
+- [美团](https://www.meituan.com/)
+  - 旅游, 门票, 团购优惠, 外卖, 美食, 生活服务, 酒店, 电影
+- [大众点评](http://dianping.com/)
+  - 美食, 团购, 点评, 本地生活, 旅游, 门票, 生活指南, 休闲娱乐
+- [爱彼迎](https://airbnb.com/)
+  - 旅游, 住宿, 民宿预订, 短租, 度假, 全球
+- [飞猪](https://www.fliggy.com/)
+  - 旅游, 住宿, 阿里旅行, 机票, 酒店, 度假, 出行
+- [携程](http://ctrip.com/)
+  - 旅游, 住宿, 机票, 酒店, 出行, 度假, 在线预订
+- [去哪儿](http://www.qunar.com/)
+  - 旅游, 住宿, 特价机票, 机票, 酒店, 火车票, 度假, OTA, 出行
+- [大众点评](http://dianping.com/)
+  - 美食, 旅游, 点评, 生活服务, 团购, 休闲娱乐, 美食点评
+- [欧美大众点评 Yelp](https://www.yelp.com/)
+  - 旅游, 美食, 点评, 欧美点评, 生活服务, 消费指南
+- [Trip Advisor](https://www.tripadvisor.com/)
+  - 旅游, 美食, 猫途鹰, 酒店, 点评, 攻略, 景点, 机票, 全球旅行
+- [日本 Tabelog](https://tabelog.com/cn/)
+  - 旅游, 美食, 日本, 点评, 餐厅预约, 生活服务
+- [日本 GURUNAVI](https://gurunavi.com/)
+  - 日本, 美食, 美食指南, 餐厅搜索, 餐厅预订, 旅游
+- [英国 Deliveroo](https://deliveroo.co.uk/)
+  - 美食, 英国外卖, 生活服务, 外卖, 在线订餐, 英国
+- [澳门 食在澳门](http://www.foodmacau.com/)
+  - 旅游, 美食, 澳门美食, 澳门, 餐厅指南, 攻略
+- [新加坡 Burpple](https://www.burpple.com/)
+  - 旅游, 美食, 新加坡美食, 餐厅推荐, 美食评论, 美食指南, 本地生活, 餐厅发现
+- [新加坡 Hungry Go Where](https://www.hungrygowhere.com/)
+  - 新加坡, 美食, 美食指南, 餐厅评价, 旅游, 生活服务
+- [印尼 Qraved](https://www.qraved.com/)
+  - 美食, 印尼美食, 旅游, 餐厅推荐, 东南亚, 订餐, 生活方式
+- [香港 Openrice](https://www.openrice.com/zh/hongkong)
+  - 旅游, 美食, 开饭喇, 香港, 餐厅指南, 点评, 生活服务
+- [台湾 爱食记](https://ifoodie.tw/)
+  - 美食, 台湾, 餐厅推荐, 旅游, 食评, 生活服务
+- [四万公里](https://www.40000km.com/)
+  - 旅游, 美食, 摄影, 游记, 旅行摄影, 生活方式
+- [Zomato](https://www.zomato.com/)
+  - 旅游, 美食, 国际点评, 餐厅搜索, 外卖, 生活服务
+- [美国中文网](http://www.sinovision.net/food.php)
+  - 美食, 中餐资讯, 美国, 餐饮, 生活服务
+- [全球美食地图](https://www.tasteatlas.com/search)
+  - 旅游, 美食, 美食百科, 世界美食, 餐厅推荐, 地图, 饮食文化
+- [神州租车](https://www.zuche.com/)
+  - 出行, 租车, 国内租车, 神州租车, 旅游, 生活服务, 交通
+- [一嗨租车](https://www.1hai.cn/)
+  - 出行, 租车, 连锁租车, 交通, 自驾, 生活服务
+- [携程租车](https://car.ctrip.com/)
+  - 出行, 租车, 平台租车, 旅游, 携程, 交通, 生活服务
+- [摩范出行](http://www.mofuntrip.com/)
+  - 出行, 租车, 共享汽车, 分时租赁
+- [EVCARD](https://www.evcard.com/)
+  - 出行, 租车, 共享汽车, 新能源, 分时租赁
+- [租租车](https://www.zuzuche.com/)
+  - 出行, 租车, 境外租车, 自驾, 旅游
+- [天巡](https://www.tianxun.com/)
+  - 出行, 旅游, 机票, 机票比价, 酒店, 租车, 比价, 搜索
+- [谷歌票务](https://www.google.com/travel/flights)
+  - 出行, 飞机, 航班查询, 机票, 订票, 旅游, Google
+- [航线图](https://map.variflight.com/)
+  - 出行, 飞机, 航空, 航线图, 地图, 飞行跟踪, 实时, 飞常准, 航线可视
+- [flightradar24](https://www.flightradar24.com/)
+  - 出行, 飞机, 航班追踪, 航空, 实时, 工具
+- [飞常准](https://map.variflight.com/)
+  - 出行, 飞机, 航班动态, 航空, 地图, 交通
+- [航旅纵横](http://www.umetrip.com/)
+  - 出行, 飞机, 行程管理, 航空, 机票, 航班查询
+- [船讯网](http://www.shipxy.com/)
+  - 航运, 物流, 船舶追踪, AIS, 地图, 工具, 水运
+- [12306](https://www.12306.cn/)
+  - 出行, 火车, 铁路官网, 购票, 交通, 生活服务
+- [无人机禁飞区](https://www.dji.com/cn/flysafe/geo-map)
+  - 无人机, 大疆, 禁飞区, 限飞查询, 飞行安全, 地图, 出行, 工具
+- [Google Maps](https://www.google.co.jp/maps)
+  - 地图, 谷歌地图, 地理, 导航, 旅游, 工具, 交通
+- [Google Earth](https://earth.google.com/web/)
+  - 天文地理, 地图, 3D地图, 卫星影像, 地理信息, 科普, 在线工具
+- [高德地图](https://amap.com/)
+  - 地图, 导航, 出行, 交通, 生活服务, 工具
+- [百度地图](http://map.baidu.com/)
+  - 地图, 导航, 百度, 交通出行, 路线规划, 生活服务
+- [兰图绘](https://www.ldmap.net/)
+  - 地图, 地图绘制, 数据可视化, 地理信息系统, 商业地图, 生产力工具, 地理标注
+- [房车营地](https://share.dituhui.com/?key=6d5397e8a78dde91b11189a017fc5e86&t=1575785943180)
+  - 地图, 房车, 营地, 露营, 旅行, 户外, 地理
+- [台风](http://typhoon.zjwater.gov.cn/default.aspx)
+  - 天文地理, 天气, 台风路径, 气象, 生活工具, 防汛, 浙江, 地图
+- [windy](https://www.windy.com/)
+  - 天气, 全球气象, 地理, 可视化, 地图, 气象预测, 天文地理
+- [卫星图](https://zoom.earth/)
+  - 天文地理, 天气, 实时云图, 地图, 卫星, 气象, 台风追踪
+- [彩云天气](http://www.caiyunapp.com/)
+  - 天文地理, 天气, 分钟预报, 气象, 生活工具, 人工智能
+- [光污染地图](https://www.lightpollutionmap.info)
+  - 天文地理, 银河天相, 光害查询, 观星, 星空摄影, 夜空地图, 地理信息
+- [光污染地图](https://www.darkmap.cn/)
+  - 天文, 地理, 光污染, 暗夜地图, 观星, 星空摄影, 地图工具
+- [Stellarium](http://stellarium.org/)
+  - 天文地理, 虚拟天文, 虚拟天文馆, 开源软件, 星图, 科普, 教育, 天文软件
+- [heavens-above](https://www.heavens-above.com/)
+  - 天文, 卫星追踪, 卫星预测, 星图, ISS, 天文学, 空间站, 天文观测
+- [Deep Sky Stacker](http://deepskystacker.free.fr/)
+  - 天文摄影, 深空摄影, 天文叠加, 图像处理, 天文软件, 开源软件
+- [星空](https://stellarium-web.org/)
+  - 天文, 星图, 虚拟天文馆, 观星, 科普, 在线工具, 银河, 星座, 科学探索
+- [星图](https://stellarium-labs.com/stellarium-mobile-plus/)
+  - 天文, 科普, 观星, 虚拟天文馆, 星图, Stellarium, 移动应用, 银河天相
+- [巧摄](https://planitphoto.cn/)
+  - 天文地理, 银河天相, 摄影计划, 风光摄影, 摄影工具, 延时摄影
+- [活动行](https://www.huodongxing.com/)
+  - 活动, 活动报名, 票务, 生活, 娱乐, 社交, 会议
+- [大麦](https://www.damai.cn/)
+  - 娱乐, 活动, 票务平台, 演出, 演唱会, 购票, 生活服务
+- [iMuseum](http://www.imuseum.cn/)
+  - 博物馆, 展览, 艺术, 文化, 生活方式, 活动
+- [内啥](https://www.neisha.cc/)
+  - 租物, 信用租赁, 数码租赁, 摄影器材, 游戏设备, 户外用品, 生活服务
+- [探物](http://www.tanwuz.com/)
+  - 租物, 数码租赁, 共享经济, 数码, 电子产品
+- [随手记](https://www.sui.com/)
+  - 金融, 记账, 理财, 财务管理, 个人财务, 工具
+- [wise](https://wise.com/)
+  - 金融, 跨境汇款, 支付, 借记卡, 数字银行, 外汇
+- [revolut](https://www.revolut.com/)
+  - 金融, 信用卡, 数字银行, 支付, 外汇, 理财, 跨境, Fintech
+- [3D Rotation Converter](https://www.andre-gaschler.com/rotationconverter/)
+  - 3D, 数学, 旋转转换, 工具, 在线工具, 四元数, 欧拉角, 计算机图形学, 机器人
+- [不定积分计算器](https://zh.numberempire.com/integralcalculator.php)
+  - 学习, 数学, 积分计算, 工具, 微积分, 计算器
+- [mathway](https://www.mathway.com/Algebra)
+  - 学习, 数学, 数学求解, 工具, 代数, 计算器, 在线工具
+- [symbolab](https://www.symbolab.com/solver/integral-calculator)
+  - 学习, 数学, 步骤求解, 工具, 计算器, 微积分, 积分, 在线工具
+- [InstaCalc](https://instacalc.com/)
+  - 学习, 数学, 即时计算, 工具, 在线计算器, 生产力
+- [在线手绘数学](https://webdemo.myscript.com/)
+  - 学习, 数学, 手写识别, 工具, LaTeX, 公式识别, 在线工具
+- [wolfram](https://www.wolframalpha.com/)
+  - 学习, 数学, 知识引擎, 工具, 科学, 计算器, 学术
+- [数学公式 latex](https://zh.wikipedia.org/zh-cn/Help:%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F)
+  - 学习, 数学, 公式语法, LaTeX, 维基百科, 参考手册, 排版, TeX
+- [状态估计](https://www.lukesy.net/docs/self-study/barfoot-ser/)
+  - 学习, 数学, 机器人学, 状态估计, SLAM
+- [计算机课程 163](https://study.163.com/curricula/cs.htm)
+  - 学习, 课程, 网易云课, 计算机, 编程, CS
+- [51CTO](https://edu.51cto.com/)
+  - 学习, 课程, IT培训, 编程, 在线教育, 技术, 计算机
+- [日语课](http://class.taoyu360.com.cn/taoyu360?intercept=0)
+  - 学习, 课程, 在线日语, 日语, 语言学习, 日语学习, 桃鱼日语
+- [coursera](https://www.coursera.org/)
+  - 学习, 课程, 在线课程, MOOC, 教育, 技能提升, 证书
+- [知网](https://www.cnki.net/)
+  - 学习, 学术, 学术论文, 文献检索, 科研, 数据库, 期刊
+- [超星](http://www.chaoxing.com/)
+  - 学习, 学术, 数字图书, 教育, 在线课程, 电子书, 网课, 数据库
+- [AI Reads Science](https://www.aminer.org/)
+  - 学术, 学术搜索, 人工智能, 科研, 论文搜索, 文献检索, 学习, 大数据
+- [东南大学全景](https://720yun.com/t/b242awafq1g?scene_id=14810)
+  - 东南大学, 校园全景, VR, 高校, 虚拟校园, 校园
+- [集智俱乐部·注意力与知识管理群 的共享知识管理系统](https://swarma-km.hintsnet.com/)
+  - 学习, 资料, 知识管理, 集智俱乐部, 协同, 人工智能, 复杂系统
+- [全历史](https://www.allhistory.com/)
+  - 学习, 资料, 历史, 历史图谱, 可视化, 百科, 人文, 工具
+- [南宝瓶座δ流星雨 meteor shower](https://www.meteorshowers.org/)
+  - 学习, 资料, 流星雨, 天文, 科学, 可视化
+- [权威数据 海量聚合](https://www.dydata.io/)
+  - 数据聚合, 行业报告, 数据分析, 可视化, 统计, 资料, 工具
+- [测测你的眼睛对色差的辨识度](http://www.cuishuai.cc/game/)
+  - 色彩测试, 游戏, 视觉测试, 在线工具, 趣味
+- [彩虹屁生成器](https://chp.shadiao.app/)
+  - 学习, 资料, 趣味生成
+- [web cam](https://www.skylinewebcams.com/)
+  - 实时监控, 旅游, 风景, 直播, 全球
+- [pixelspace_solarsystem](https://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html)
+  - 学习, 资料, 太阳系, 天文, 科普, 宇宙, 可视化, 交互
+- [报告查一查](https://report.seedsufe.com/#/report)
+  - 学习, 资料, 研报查询, 行业报告, 金融, 数据
+- [标准地图服务](http://bzdt.ch.mnr.gov.cn/index.html)
+  - 学习, 资料, 官方地图, 地图, 工具, 地理, 素材, 政府服务, 权威
+- [地图书人文地理知识库](https://www.ageeye.cn/)
+  - 学习, 资料, 人文地理, 地图, 历史, 历史地理, 古地图, 地理信息
+- [假装编程](https://geektyper.com/)
+  - 黑客模拟, 模拟器, 恶搞, 娱乐, 极客, 解压
+- [在线编程](https://replit.com/languages)
+  - 编程, 在线编程, 云端IDE, Replit, 开发工具, 协作开发
+- [在线 matlab](https://octave-online.net/)
+  - 编程, 在线编程, Octave, MATLAB, 科学计算, 数学, 在线工具
+- [算法可视化](https://algorithm-visualizer.org/)
+  - 编程, 算法可视化, 算法演示, 数据结构, 学习资源, 在线工具, 计算机科学
+- [可视化](https://visualgo.net/en)
+  - 编程, 算法可视化, 数据结构, 算法, 计算机科学, 学习工具, 面试准备
+- [cpp ref](http://www.cplusplus.com/)
+  - 编程, 手册, C++参考, C++, 文档, 开发
+- [常用API文档索引](https://tool.oschina.net/apidocs)
+  - 编程, 手册, API文档, 在线工具, 开发工具, 参考
+- [牛客](https://www.nowcoder.com/)
+  - 编程, 刷题, 求职刷题, 招聘, 面试, 笔试, 程序员, 互联网
+- [leetcode](https://leetcode.com/)
+  - 编程, 刷题, 算法, 数据结构, 面试, 力扣, LeetCode
+- [九章算法](https://www.jiuzhang.com/solutions/)
+  - 编程, 刷题, 算法面试, 数据结构, 求职, LeetCode, 程序员面试
+- [hihocoder](http://hihocoder.com/)
+  - 编程, 刷题, 编程竞赛, 算法, Online Judge, OJ
+- [lintcode](https://www.lintcode.com/)
+  - 编程, 刷题, 代码面试, 算法, 数据结构, LintCode, 程序员
+- [西部数码](https://www.west.cn/login.asp?pageStr=/manager/domain/rsall.asp)
+  - 域名, 域名注册, 云计算, 云服务, 服务器, 网站建设
+- [feed creator](http://createfeed.fivefilters.org/)
+  - RSS生成, RSS, Feed制作, 网页工具, 自动化
+- [followthatpage](https://www.followthatpage.com/)
+  - 网页监控, 信息监控, 效率工具, 内容提醒
+- [微信 pc 防撤回](https://github.com/huiyadanli/RevokeMsgPatcher)
+  - 微信, 防撤回, 补丁, 开源, Windows, 电脑软件, 装机, QQ, 工具
+- [shadowsocks](https://portal.shadowsocks.au/)
+  - 电脑软件, 网络工具, 代理, 科学上网, Shadowsocks, 翻墙工具
+- [SSRDOG](https://dog.hosbbq.com/)
+  - 机场推荐, 科学上网, VPN, 网络工具, 代理
+- [传文件](https://airportal.cn/)
+  - 文件传输, 在线工具, 跨平台, 效率工具, 快传助手
+- [TailScale VPN](https://login.tailscale.com/admin/machines)
+  - Tailscale, VPN, 网络工具, 远程访问, 虚拟局域网, 内网穿透, 管理后台, 电脑软件
+- [异次元软件世界](https://www.iplaysoft.com/)
+  - 电脑软件, 软件推荐, 软件购买, Windows, macOS, iOS, Android, 效率工具, 科技资讯, 资源下载
+- [文档格式转换](https://www.alltoall.net/)
+  - 在线工具, 格式转换, 文档处理, 文件转换, 数据处理工具
+- [格式转换](https://www.aconvert.com/cn/)
+  - 在线转换, 格式转换, 文件处理, 文档处理, 多媒体转换, PDF工具, 数据处理工具
+- [白描 OCR](https://web.baimiaoapp.com/)
+  - 数据处理工具, 文档处理, 文字识别, OCR, 图片转文字, 生产力工具, 在线工具
+- [扫描全能王](https://v3.camscanner.com/)
+  - 文档扫描, 文档处理, OCR文字识别, PDF转换, 办公工具, 效率工具, 在线工具
+- [temp mail](https://temp-mail.org/)
+  - 临时邮箱, 临时注册, 隐私保护, 网络工具, 电子邮件
+- [在线画图](https://excalidraw.com/)
+  - 在线画图, 共享画布, 手绘风格, 流程图, 虚拟白板, 原型设计
+- [在线画布](https://canvas.apps.chrome/)
+  - 谷歌画布, 绘画工具, 在线绘图, 涂鸦, 谷歌工具, 设计工具
+- [在线画布](https://miro.com/signup/)
+  - 共享画布, 协作白板, 在线白板, 协作工具, 效率工具, 流程图, 远程办公, 可视化工具
+- [空白网页](data:text/html,%20<html%20contenteditable>)
+  - 极简笔记, 文本编辑, 临时草稿, 生产力工具, 浏览器技巧
+- [在线 latex](https://www.overleaf.com/)
+  - LaTeX, 在线编辑, 协作, 写作, 论文写作, 科研工具
+- [据意查句](https://wantquotes.net/)
+  - 写作, 句子搜索, 文案, 灵感, 金句, 素材, 工具
+- [汉语反向词典 万词王](https://wantwords.net/)
+  - 写作, 词典, 词汇搜索, 反向词典, 工具, 语言学习, 灵感, 创造
+- [微信公众号](https://mp.weixin.qq.com/)
+  - 写作, 公众平台, 创作, 自媒体, 微信, 运营, 内容管理
+- [instagram font](https://lingojam.com/FontsForInstagram)
+  - 字体生成, 社交媒体, 工具, Instagram, 花式字体, 文字样式, 装饰
+- [CG资源网](https://www.cgown.com/)
+  - 视频剪辑资源, CG素材, AE模板, PR模板, 后期特效, 插件, 教程, 设计素材
+- [AE模板](https://www.newcger.com/)
+  - 视频剪辑资源, 视频模板, AE模板, PR模板, 影视后期, 素材, 新CG儿
+- [Adobe 资源](http://adobe.v404.cn/adobe/)
+  - Adobe, 软件下载, 设计工具, 视频剪辑, 图像处理, 生产力工具, 全家桶
+- [删除视频背景](https://www.unscreen.com/)
+  - 视频抠图, 背景移除, AI工具, 视频剪辑资源, 在线工具, 设计工具
+- [游戏3D地图](https://noclip.website/)
+  - 游戏场景, 3D地图, 视频剪辑资源, 关卡设计, 游戏开发, 素材, 参考资料
+- [视频字幕](https://2zimu.com/#/)
+  - 视频剪辑, 双语字幕, 视频翻译, 语音转文字, AI工具, 在线工具
+- [第一 ppt](https://www.1ppt.com/)
+  - PPT, PPT模板, PPT素材, PPT背景, PPT图表, PPT教程, 办公, 课件
+- [slidesgo](https://slidesgo.com/theme/isometric-proposal)
+  - 创造, PPT, 谷歌幻灯, 模板, 演示文稿, 设计, 办公
+- [officeplus](https://www.officeplus.cn/)
+  - PPT, 微软官方, 模板, Office, Word, Excel, 办公, 素材
+- [词云](https://www.weiciyun.com/)
+  - 词云生成, 数据可视化, 在线工具, 设计, PPT, 排版
+- [千亿像素看中国](http://pf.bigpixel.cn/zh-CN.html)
+  - 全景图片, 千亿像素, 摄影, 航拍, 旅游, 中国, 图片
+- [删除图片背景](https://www.remove.bg/)
+  - 图片, 图片抠图, 背景移除, AI, 在线工具, 设计
+- [搞定设计](https://www.gaoding.com/introduction)
+  - 在线设计, 图片编辑, 平面设计, 海报制作, 设计模板, AI工具, 视频剪辑, 电商美工
+- [浏览器插件列表](https://github.com/yvonshong/website/blob/master/web-browser-expansion.md)
+  - 浏览器插件, 插件推荐, GitHub, 工具, 资源列表, 生产力, 下载
+- [海盗湾](https://thepiratebay.by/)
+  - 下载, 搜索, BT下载, 磁力链接, 种子, 资源, P2P
+- [BT天堂](http://www.bttiantang.com/)
+  - BT, 磁力, 种子, 电影下载, 影视, 下载, 资源
+- [云搜](http://www.daysou.com/)
+  - 搜索, 网盘搜索, 资源搜索, 下载, 工具
+- [印象](https://impress.pw/)
+  - 下载, 搜索, 资源搜索, 网盘搜索, 工具
+- [duckduckgo](https://duckduckgo.com/)
+  - 搜索, 隐私搜索, 搜索引擎, 隐私保护
+- [最专业ip数据库、手机号数据库、列车时刻数据库](http://www.123cha.com/)
+  - 综合查询, 在线工具, 生活服务, 数据库, IP查询, 查询工具
+- [AOL](https://www.aol.com/)
+  - 美国在线, 搜索, 门户, 新闻, 邮箱, 媒体
+- [努努影院](https://www.nunuyy1.org/)
+  - 下载, 电影资源, 在线影视, 电视剧, 动漫, 综艺, 视频
+- [知乎汇总](https://www.zhihu.com/question/267327916/answer/2195303727)
+  - 知乎, 电子书, 下载, 资源汇总, 网站推荐
+- [IT 电子书](https://it-ebooks.info/)
+  - IT, 电子书, 技术书籍, 下载, 编程, 计算机, 英文, 免费
+- [图灵](https://www.ituring.com.cn/)
+  - 图灵社区, 电子书, 编程, 技术, 计算机, IT, 书籍, 出版
+- [鸠摩搜书](https://www.jiumodiary.com/)
+  - 电子书, 搜索, 资源, 工具, 下载, 搜索引擎
+- [国家标准](http://openstd.samr.gov.cn/bzgk/gb/)
+  - 国家标准, 国标查询, 标准下载, 官方, 工具, 查询
+- [全国图书馆参考咨询联盟](http://www.ucdrs.superlib.net/)
+  - 图书馆, 文献传递, 电子书, 学术资源, 参考咨询, 文献检索, 下载
+- [instagram indown](https://indown.io/zh)
+  - Instagram, 下载, IG下载, 视频下载, 图片下载, 工具, 在线工具
+- [igram](https://igram.world/zh/reels-downloader)
+  - Instagram, 视频下载, Reels下载, 工具, 下载, 在线工具
+- [今日热榜](https://tophub.today/)
+  - 新闻, 资讯, 聚合, 热榜, 实时, 排行榜, 信息
+- [网站推荐](https://xiangjianan.gitee.io/lks/)
+  - 站点分享, 网址导航, 工具, 资源, 信息
+- [wikihow](https://zh.wikihow.com/%E9%A6%96%E9%A1%B5)
+  - 生活指南, 教程, 百科, DIY, 指南
+- [inoreader](https://www.inoreader.com/all_articles)
+  - 新闻, RSS阅读, 效率工具, 资讯, 内容订阅, 聚合阅读
+- [animagraffs](https://animagraffs.com/)
+  - 机械原理, 教育, 可视化, 3D动画, 工程, 科普
+- [有趣网址之家 收藏全球最有趣的网站](https://youquhome.com/)
+  - 网址导航, 趣味导航, 酷站, 资源发现, 创意
+- [即时工具](https://www.67tool.com/)
+  - 在线工具, 合辑网站, 效率工具, 生产力, 网页工具
+- [MikuTools - 工具集合](https://tools.miku.ac/)
+  - 合辑网站, 极简工具, 在线工具, 效率工具, 实用工具
+- [精选创意导航](https://creativemass.cn/#/)
+  - 设计导航, 创意设计, 合辑网站, 工具, 灵感
+- [考拉新媒体导航](https://www.kaolamedia.com/)
+  - 新媒体, 运营工具, 导航网站, 合辑网站, 内容创作, 热点追踪, 设计工具
+- [优优网](https://uiiiuiii.com/tools)
+  - 设计教程, 设计工具, 合辑网站, 在线工具, 素材, 导航
+- [QQ浏览器帮小忙, 万能工具宝藏](https://tool.browser.qq.com/)
+  - 在线工具, 效率工具, 合辑网站, 腾讯工具, 万能工具箱
+- [LKS SITE](https://lkssite.vip/)
+  - 个人导航, 合辑网站, 网址导航, 实用工具, 资源分享, 信息聚合
+- [AI工具集](https://ai-bot.cn/)
+  - AI导航, 合辑网站, AI工具, 生产力, 人工智能
+- [Shotdeck](https://shotdeck.com/welcome/home)
+  - 影视素材, 剧照, 摄影参考, 灵感, 分镜, 电影, 调色, 构图
+- [Grid Type](https://www.grid-type.com/)
+  - 设计工具, 字体设计, 网格系统, 在线工具, 创意设计, 灵感与素材
+- [Liquid Paper](https://liquid.paper.design/)
+  - 创造, 灵感与素材, 设计工具, Logo设计, 液态金属, 动效, 在线工具, 视觉效果
+- [NBFox](https://www.nbfox.com/)
+  - 艺术, 名画, 高清, 灵感, 素材, 无版权, 设计, 审美
+- [Gallerix](http://en.gallerix.ru/)
+  - 艺术, 名画, 美术馆, 绘画, 灵感, 素材, 高分辨率, 在线图库
+- [Chuangkit 创客贴](https://www.chuangkit.com/dc.html)
+  - 平面设计, 在线设计, 设计工具, 海报制作, 设计素材, PPT模板, 灵感, 生产力工具
+- [LS Graphics](https://www.ls.graphics/meshgradients)
+  - 设计, 设计资源, 素材, 渐变, 背景, 弥散渐变, 灵感
+- [WangYasai](https://wangyasai.github.io/)
+  - 创造, 灵感与素材, 设计工具, 生成器, 数据可视化, 在线工具, 个人网站
+- [Creative Mass](https://creativemass.cn/#/)
+  - 设计, 设计导航, 灵感, 素材, 创意, UI设计, 视觉传达
+- [FotoJet](http://www.fotojet.com/)
+  - 在线图形设计, 图片编辑, 照片拼图, 平面设计, 创意工具, 模板库, 设计工具
+- [Dribbble](https://dribbble.com/wagerfield)
+  - 设计, 灵感与素材, UI/UX, 作品集, 创造, 顶尖设计师社区, 交互设计, 前端开发
+- [可疑链接已删除]()
+  - CG, 素材, 资源, 灵感, 3D, 设计, 艺术, 创作
+- [Akuziti](http://www.akuziti.com/yw/)
+  - 设计工具, 灵感与素材, 艺术字体, 字体生成, 在线工具, 英文字体
+- [Pattern Monster](https://cn.pattern.monster/)
+  - 设计工具, 灵感素材, 背景生成器, SVG, 图案, 纹理
+- [UiiiUiii](https://uiiiuiii.com/tools)
+  - 创造, 灵感与素材, 设计工具, 在线神器, 优设网
+- [Dimensions](https://www.dimensions.com/)
+  - 创造, 灵感与素材, 尺寸参考, 设计参考, 人体工程学, 建筑设计, 工业设计
+- [Hanabi 花火](https://hanabi.data-viz.cn/index?lang=zh-CN)
+  - 创造, 数据可视化, 图表制作, 设计工具, 在线工具
+- [LTFC](https://www.ltfc.net/exhibit/recent)
+  - 书法, 绘画, 艺术, 国画, 灵感与素材, 中国传统文化, 素材下载, 高清资源
+- [Yura Fuca](http://yurafuca.com/5000choyen/)
+  - 创造, 灵感与素材, 字体生成器, 5000兆日元, 综艺风, 特效字体, 设计工具, 在线工具
+- [Douga Work](https://douga.work/free-distribution-psdfx-001/)
+  - 设计素材, 视频剪辑, 字体效果, 综艺感, PSD, 免费资源, 灵感与素材
+- [TV Sozai](https://tvsozai.com/4639/)
+  - 灵感与素材, 综艺感, 字体素材, 视频后期, 字幕包装, 设计素材, 日本设计
+- [Irasutoya](https://www.irasutoya.com/)
+  - 创造, 灵感与素材, 插画, 设计素材, 日本, 免费, 图形资源
+- [Veleap](http://veleap.com/console/works/material/nav)
+  - AE插件, AE脚本, AE教程, 设计素材, 视频制作, 设计师工具, 创作社区, 视杏科技, 素材库
+- [Game UI Database](https://www.gameuidatabase.com/)
+  - 创造, 灵感与素材, 游戏UI, 界面设计, 参考资料
+- [Zh.iFixit](https://zh.ifixit.com/)
+  - 实用工具, 电子产品, 维修指南, 硬件拆解, DIY教程, 生活百科
+- [AIPPT](https://www.aippt.cn/)
+  - 实用工具与资源, 办公效率, AI工具, PPT生成, 演示文稿, 人工智能
+- [TinyURL](https://tinyurl.com/j2ctranslation)
+  - 实用工具与资源, 办公、查询、转换与效率提升, 日翻中易错翻译对照表, 日语翻译, 翻译参考, 语言学习
+- [DeepL](https://www.deepl.com/translator)
+  - 翻译, AI, 人工智能, 效率工具, 办公, 实用工具, 语言处理
+- [AirPortal](https://airportal.cn/)
+  - 实用工具, 文件传输, 跨平台, 效率工具, 文件分享, 在线工具
+- [Temp Mail](https://temp-mail.org/zh/)
+  - 实用工具, 办公效率, 临时邮箱, 隐私保护, 验证码接收, 匿名邮箱, 网络安全
+- [AllToAll](https://www.alltoall.net/)
+  - 在线工具, 格式转换, 办公效率, 文件处理, 资源网站
+- [Aconvert](https://www.aconvert.com/cn/)
+  - 实用工具, 在线转换, 文件格式转换, PDF处理, 视频转换, 图片转换, 音频转换, 办公效率, 电子书转换
+- [Hotkey Cheatsheet](https://hotkeycheatsheet.com/zh)
+  - 实用工具, 快捷键, 速查表, 效率提升, 生产力, 参考资料
+- [GreasyFork](https://greasyfork.org/zh-CN)
+  - 实用工具, 浏览器脚本, 油猴脚本, 效率提升, 软件资源, 开发者工具
+- [Grammarly](https://app.grammarly.com/)
+  - 实用工具与资源, 办公效率, 英文写作, 语法检查, AI工具, 写作助手, 语言学习
+- [WantWords](https://wantwords.net)
+  - 实用工具, 办公效率, 反向词典, 写作辅助, 语言查询, AI工具, 中英互译
+- [WantQuotes](https://wantquotes.net/)
+  - 实用工具, 写作辅助, 名言名句, 据意查句, 查询工具, 灵感创作, 人工智能工具
+- [Nbnhhsh](https://lab.magiconch.com/nbnhhsh/)
+  - 实用工具, 查询工具, 互联网黑话, 缩写释义, 拼音缩写, 语言工具, 效率提升
+- [Every Time Zone](https://everytimezone.com/)
+  - 实用工具, 办公, 时区转换, 效率提升, 世界时间, 在线工具, 跨国会议, 远程办公
+- [67Tool](https://www.67tool.com/)
+  - 在线工具箱, 实用工具, PDF工具, 图片处理, 办公工具, 开发者工具, 格式转换, 效率提升
+- [Slidesgo](https://slidesgo.com/theme/isometric-proposal)
+  - PPT模板, Google Slides, 演示文稿, 设计素材, 办公工具, 免费资源
+- [EmojiAll](https://www.emojiall.com/zh-hans)
+  - 实用工具, Emoji, 表情符号, 设计素材, 办公效率, 查询工具
+- [Pushkeen](https://pushkeen.ai/appstore-icons/8901)
+  - 设计资源, 图标下载, App Store, 效率工具, 实用工具, 素材获取
+- [Weiciyun 微词云](https://www.weiciyun.com/)
+  - 实用工具, 办公效率, 文字云生成器, 数据可视化, 在线设计, 艺术设计
+- [PS Gaoding](https://ps.gaoding.com/#/)
+  - 实用工具, 办公效率, 图片编辑, 在线PS, 图形设计, 设计资源
+- [Adobe Downloads](http://adobe.v404.cn/adobe/)
+  - 实用工具与资源, 软件下载, Adobe, 设计工具, 破解资源, Adobe全家桶
+- [CPS Check](https://cps-check.com/cn/polling-rate-check)
+  - 实用工具, 在线工具, 硬件测试, 鼠标测试, 轮询率测试, 外设检测, 性能测试
+- [NCM Convert](https://ncm.worthsee.com/site/index)
+  - 实用工具, 音频转换, 在线工具, 网易云音乐, 格式转换, NCM转MP3
+- [Suno](https://suno.com/)
+  - 创意与黑科技, AI音乐, 音乐生成, AIGC, 作曲创作
+- [Stable Diffusion](https://huggingface.co/spaces/stabilityai/stable-diffusion)
+  - 人工智能, AI绘画, 图像生成, Stable Diffusion, Hugging Face, 文生图, 创意工具
+- [ERNIE-ViLG](https://huggingface.co/spaces/PaddlePaddle/ERNIE-ViLG)
+  - AI绘画, 文心大模型, 百度, 文本生成图像, PaddlePaddle, Hugging Face, 图像处理, 人工智能
+- [ClipDrop Relight](https://clipdrop.co/relight)
+  - AI工具, 图像处理, 二次打光, 后期修图, 设计工具, ClipDrop
+- [Magic Eraser](https://www.magiceraser.io/)
+  - AI工具, 图像处理, 图片编辑, 消除笔, 创意设计, 效率工具, 黑科技, 在线神器
+- [Remove.bg](https://www.remove.bg/)
+  - AI, 抠图, 图像处理, 背景移除, 在线工具, 人工智能, 设计工具
+- [Unscreen](https://www.unscreen.com/)
+  - AI视频, 视频背景移除, 视频处理, AI工具, 自动抠图
+- [Picup](http://www.picup.shop/currencyBatch.html)
+  - AI工具, 图像处理, 抠图, 批量处理, 设计助手, 生产力工具
+- [Waifu2x](http://waifu2x.udp.jp/)
+  - AI, 图像处理, 图片放大, 超分辨率, 二次元, 降噪, 工具, 深度学习, 黑科技
+- [Illuminarty](https://illuminarty.ai/en/)
+  - AI检测, AIGC识别, 图片检测, 文本检测, 创意与黑科技, 人工智能
+- [Goblin Tools](https://goblin.tools/)
+  - AI生产力工具, 任务分解, 写作辅助, 语气转换, 情绪识别, 效率工具, 神经多样性辅助, 生活助手
+- [Hong AI](https://hong.greatdk.com/)
+  - AI, 聊天机器人, 角色扮演, 哄哄模拟器, 情商训练, 文字游戏, 创意与黑科技
+- [Calligrapher](https://www.calligrapher.ai/)
+  - 人工智能, 在线工具, 设计工具, 手写生成, 创意工具, 黑科技, 字体
+- [2Zimu](https://2zimu.com/#/)
+  - AI工具, 视频处理, 自动字幕, 视频翻译, 语音转文字, 创意与黑科技
+- [Azure TTS](https://azure.microsoft.com/zh-cn/services/cognitive-services/text-to-speech/#overview)
+  - AI, 文字转语音, 语音合成, Microsoft Azure, TTS, 创意与黑科技, 生产力工具
+- [Waifu Labs](https://waifulabs.com/)
+  - AI绘画, 二次元, 头像生成, 人工智能, 创意工具, 角色设计
+- [Crypko](https://crypko.ai/#/)
+  - AI绘画, 二次元, 头像生成, 角色设计, 人工智能, 创意工具
+- [This X Does Not Exist](https://thisxdoesnotexist.com/)
+  - 人工智能, 生成式AI, GAN, 图像生成, 创意工具, 黑科技, 导航
+- [PaintsChainer](http://paintschainer.preferred.tech/index_zh.html)
+  - AI, 自动上色, 图像处理, 线稿上色, 插画工具, 人工智能, 绘画工具, 设计工具
+- [Girl Friend Factory](https://hiroshiba.github.io/girl_friend_factory/index.html)
+  - AI绘画, 二次元, 头像生成, 生成器, 人工智能, 创意工具
+- [Ostagram](http://www.ostagram.ru/lenta?locale=en)
+  - AI绘画, 风格迁移, 图像处理, 图像合成, 创意工具
+- [Caiyun Dream](http://if.caiyunai.com/dream/#/)
+  - AI写作, 文本生成, 故事续写, 文学创作, 创意工具, 人工智能
+- [NVIDIA AI Playground](https://www.nvidia.com/en-us/research/ai-playground/)
+  - 人工智能, AI绘画, 图像处理, 英伟达, 创意与黑科技, AI工具, AI演示, 音乐生成
+- [AutoDraw](https://aiexperiments.withgoogle.com/autodraw)
+  - AI绘画, 设计工具, Google, 图标制作, 简笔画, 创意工具
+- [Pingti](https://www.pingti.app/)
+  - AI工具, 购物助手, 省钱攻略, 平替搜索, 生活辅助, 创意与黑科技
+- [Fatetell](https://www.fatetell.com/)
+  - 创意与黑科技, AI工具, 人工智能, 算命占卜, 玄学, 大语言模型, 当东方玄学遇到AI大模型（算命图一乐）
+- [Sketch Metademolab](https://sketch.metademolab.com/canvas)
+  - 创意与黑科技, AI工具, 人工智能, 动画生成, 图像处理, 角色动画, Meta AI
+- [SmartMap](https://www.smartmap.space/)
+  - AI, 地图, 旅游规划, 行程规划, 人工智能, 效率工具, 创意工具
+- [Colourise](https://colourise.sg/)
+  - 人工智能, AI, 图像处理, 照片上色, 老照片修复, 黑白转彩色, 在线工具
+- [Tuxun 图寻](https://tuxun.fun/)
+  - 地理, 探索与科普, 在线游戏, 街景, GeoGuessr, 益智
+- [GeoGuessr](https://geoguessr.com/)
+  - 地理, 游戏, 街景, 探索, 益智, 地图
+- [Drive & Listen](https://drivenlisten.com/city/#)
+  - 旅游, 地理, 城市风光, 电台, 放松, 沉浸式体验, 云游, 探索
+- [AirPano](http://www.airpano.com/)
+  - 探索, 科普, 地理, 虚拟旅游, 全景摄影, 航拍, 360度全景, 摄影, 旅游, 风景名胜
+- [Virtual Basilica](https://virtual.basilicasanpietro.va/en)
+  - 虚拟游览, 文化遗产, 历史, 建筑, 宗教, 梵蒂冈, 3D体验
+- [Virtual Mauritshuis](https://virtual.mauritshuis.nl/index.html?lang=en&startscene=21)
+  - 艺术, 博物馆, 虚拟游览, 探索与科普, 历史, 文化
+- [Calculating Empires](https://calculatingempires.net/)
+  - 历史, 技术史, 可视化, 数据地图, 数字人文, 科普, 社会学, 信息图表
+- [Pudding](https://pudding.cool/)
+  - 数据可视化, 视觉叙事, 数据新闻, 探索与科普, 文化, 创意设计, 信息图
+- [All History 全历史](https://www.allhistory.com/)
+  - 历史, 地理, 百科, 科普, 人文社科, 知识图谱, 时间轴, 可视化
+- [Lishichelun](https://www.lishichelun.com/tool)
+  - 历史, 时间轴, 可视化, 科普, 工具, 人物生平
+- [Timeline of Earth](http://timelineofearth.com/)
+  - 科普, 地球历史, 地质学, 生物演化, 自然科学, 互动年表, 数据可视化
+- [AgeEye](https://www.ageeye.cn/)
+  - 历史地图, 地理, 历史, 古地图, 探索与科普, 知识分享, 文化, 军事, 地图制图, 资料库
+- [BigPixel](https://bigpixel.cn/zh-CN.html)
+  - 探索与科普, 地理, 摄影, 全景摄影, 亿级像素, 城市景观, VR
+- [Seaside Station](https://seaside-station.com/region/hokkaido/)
+  - 日本, 铁道, 旅游, 车站, 海景, 地理, 摄影
+- [Standard Map](http://bzdt.ch.mnr.gov.cn/index.html)
+  - 地理, 地图, 政务服务, 标准地图, 科普, 自然资源部
+- [Dayi 大医](https://www.dayi.org.cn/)
+  - 医学, 健康, 科普, 医药百科, 疾病查询, 健康科普
+- [MSD Manuals](https://www.msdmanuals.com/zh#mission)
+  - 医学, 健康, 诊疗手册, 临床参考, 科普, 疾病百科, 权威资源
+- [MVYXWS](https://www.mvyxws.com/)
+  - 医学, 健康, 科普, 视频, 医疗知识
+- [China Judgements Online](https://wenshu.court.gov.cn/#)
+  - 法律, 裁判文书, 司法公开, 案例检索, 政务服务
+- [Court Live](http://tingshen.court.gov.cn/)
+  - 法律, 司法, 庭审直播, 政务服务, 中国庭审公开网, 科普
+- [12348 AI Legal](https://ai.12348.gov.cn/pc/)
+  - 法律, AI工具, 法律咨询, 政府服务, 法律意见书, 免费工具
+- [Wikihow](https://zh.wikihow.com/)
+  - 生活百科, 指南, 教程, 生活技能, Wiki, DIY, 科普
+- [NLC](http://www.nlc.cn/dsb_zyyfw/gj/gjzyk/)
+  - 国家图书馆, 古籍, 善本, 数字化资源, 历史文献, 文化遗产, 学术研究
+- [Shidianguji](https://www.shidianguji.com/?page_from=bookshelf)
+  - 古籍, 数字化图书馆, 历史, 文化, 文学, AI辅助, 在线文库, 免费资源, 人文社科, 学术研究
+- [CN-KI](https://www.cn-ki.net/)
+  - iData, 学术资源, 文献检索, 论文下载, 科研工具, 探索与科普
+- [ReadPaper](https://readpaper.com/)
+  - 科研学术, 论文阅读, 文献管理, AI工具, 效率工具
+- [WolframAlpha](http://www.wolframalpha.com/)
+  - 计算知识引擎, 数学, 科学, 学术工具, 搜索引擎, 数据查询, 科普, 教育, 地理, 历史, 医学
+- [Nova Astrometry](https://nova.astrometry.net/)
+  - 天文, 星空识别, 科普, 科研工具, 数据处理
+- [Moon Data](http://moon.bao.ac.cn/mul/index/list)
+  - 天文, 月球, 深空探测, 科学数据, 探月工程, 数据中心
+- [Eclipse](https://nadc.china-vo.org/eclipse/)
+  - 天文, 日食, 科普, 数据查询, 工具, 地理, 历史
+- [Flash Earth](http://www.flashearth.com/)
+  - 探索与科普, 地理, 地图, 卫星地图, 实时气象卫星图片, 地球观测
+- [Windy](https://www.windy.com/)
+  - 天气预报, 气象, 地理, 数据可视化, 科普, 专业工具
+- [Gapminder](https://www.gapminder.org/dollar-street/)
+  - 探索与科普, 地理, 社会科学, 数据可视化, 生活水平, 全球视野
+- [Visual Capitalist](https://www.visualcapitalist.com/)
+  - 数据可视化, 信息图表, 科普, 经济, 金融, 科技, 商业, 全球趋势
+- [Every Second](http://www.everysecond.io/)
+  - 探索与科普, 数据可视化, 实时统计, 趣味百科, 动态数据
+- [Vultr Quiz](https://vultr.youmu.moe/quiz/)
+  - 探索与科普, 地理, 中国地图, 在线测验, 益智游戏
+- [Spurious Correlations](http://tylervigen.com/spurious-correlations)
+  - 科普, 统计学, 数据可视化, 趣味, 逻辑, 探索
+- [Internet Map](http://internet-map.net/)
+  - 互联网, 数据可视化, 科普, 互联网地图, 信息技术, 探索
+- [PeakJut](https://peakjut.com/)
+  - 地理, 山峰, 探索与科普, 地形, 数据可视化, 户外
+- [The Tenth Watch](http://thetenthwatch.com/feed/#)
+  - 探索与科普, 物理, 科学, 沥青滴漏实验, 实时观测, 科学实验
+- [Cloud Appreciation Society](https://cloudappreciationsociety.org/)
+  - 探索与科普, 气象, 自然, 赏云, 摄影, 科学, 天文
+- [Ian Fisher](https://www.ianfisherart.com/)
+  - 艺术, 绘画, 云, 作品集, 当代艺术, 油画
+- [Tingdong 听懂](https://tingdong.cn/)
+  - 音乐, 白噪音, 声效, 播客, 环境音, 云试听, 音频设备, 麦克风, 音箱, Hi-Fi
+- [Listen 1](http://listen1.github.io/listen1/)
+  - 音乐, 播放器, 音乐聚合, 开源, 工具
+- [Songsterr](https://www.songsterr.com/)
+  - 音乐, 吉他谱, 贝斯谱, 鼓谱, 乐谱, 在线工具, 乐器练习, 互动乐谱
+- [Conserve the Sound](https://www.conservethesound.de/)
+  - 声音博物馆, 音效素材, 复古, 白噪音, 声音存档, 历史保护, 环境音, 工业设计
+- [Aporee](https://aporee.org/maps/)
+  - 声音地图, 田野录音, 环境音, 音频资源, 地理, 全球声音, 现场录音
+- [Tree.fm](https://www.tree.fm/)
+  - 自然, 森林, 环境音, 白噪音, 放松, 专注, 声景
+- [Virtocean](https://virtocean.com/#)
+  - 音乐与白噪音, 环境音, 白噪音, 海洋, 放松, 专注, 生产力工具, 冥想
+- [Pluvior](https://pluvior.com/index.html)
+  - 音乐, 白噪音, 环境音, 雨声, 专注, 放松, 声效, 生产力工具
+- [Rainy Mood](http://www.rainymood.com/)
+  - 白噪音, 环境音, 助眠, 学习, 专注, 放松, 雨声, 效率工具, 背景音
+- [Ambient Mixer](http://www.ambient-mixer.com/)
+  - 环境音, 白噪音, 声效, 在线混音, 放松, 冥想, 专注, RPG背景音
+- [A Soft Murmur](http://asoftmurmur.com/)
+  - 白噪音, 环境音, 专注, 生产力, 放松, 在线工具, 睡眠, 冥想
+- [I Miss The Office](https://imisstheoffice.eu/)
+  - 白噪音, 环境音, 办公室, 声效, 生产力工具, 趣味网站
+- [Radio Garden](http://radio.garden/live/tokyo/j-idols-project-radio/)
+  - 音乐, 电台, 全球广播, 在线工具, 探索, 播客, 日本音乐
+- [Pod Link](https://pod.link/)
+  - 播客, 播客分享, 聚合链接, 社交分享, 工具
+- [Epidemic Sound](https://www.epidemicsound.com/)
+  - 音乐, 音效, 免版税, 内容创作, 素材库, 音频, 视频剪辑
+- [No Copyright Music](https://www.youtube.com/channel/UCht8qITGkBvXKsR1Byln-wA/videos)
+  - 音乐, 无版权音乐, YouTube, 免版税音乐, BGM, 素材库, 内容创作
+- [Sonniss](http://www.sonniss.com/gameaudiogdc2017/)
+  - 音效素材, 游戏音频, 免费资源, 创作素材, GDC, 音频素材
+- [BBDJ](http://www.bbdj.com/)
+  - 音乐, DJ, 舞曲, 电音, 无损音乐, 串烧, 音乐分享
+- [Ishkur's Guide](http://music.ishkur.com/)
+  - 音乐, 电子音乐, 音乐历史, 流派图谱, 音乐科普, 编年史, 交互式网页, 音乐欣赏
+- [Traxsource](https://www.traxsource.com/dj-top-10s)
+  - 音乐, 电子音乐, House Music, DJ 资源, 排行榜, 数字音乐商店
+- [BGMC Station](https://bgmc-station.com/)
+  - 音乐, 背景音乐, BGM, 免版权音乐, 商业用曲, 店铺音乐, 环境音, 白噪音
+- [TuneFind](https://www.tunefind.com/)
+  - 音乐, 影视插曲, 原声带, OST, 美剧, 电影, 音乐发现
+- [Gnoosic](https://www.gnoosic.com/faves.php)
+  - 音乐, 音乐发现, 音乐推荐, 个性化推荐, 发现工具
+- [Lalal.ai](https://www.lalal.ai/)
+  - 音乐, 音频编辑, 人工智能, AI工具, 人声分离, 伴奏提取, 音频处理
+- [Dango.ai](https://dango.ai/)
+  - AI音频工具, 人声分离, 音频分轨, 音乐制作, 伴奏提取, AI工具
+- [The Wub Machine](https://the.wubmachine.com/)
+  - 音乐, 音频处理, 混音, 自动Remix, 在线工具, 电子音乐
+- [Learning Music](https://learningmusic.ableton.com/zh-Hans/)
+  - 音乐教育, 音乐创作, 乐理, Ableton, 交互式教程, 在线学习
+- [Flowkey](https://app.flowkey.com.cn/)
+  - 钢琴, 音乐教育, 乐器学习, 在线学习, 音乐
+- [Touch Pianist](http://touchpianist.com/)
+  - 音乐, 钢琴, 节奏游戏, 古典音乐, 在线游戏, 交互式体验
+- [Hmix](http://www.hmix.net/music_gallery/music_top.htm)
+  - 音乐素材, BGM, 音效, 免版权音乐, 日本, 免费资源, 素材库, 游戏素材, 视频剪辑素材
+- [Downloads Khinsider](https://downloads.khinsider.com/)
+  - 音乐, 游戏音乐, OST, 原声带, 下载站, 游戏资源, 素材下载
+- [Slow Roads](https://slowroads.io/)
+  - 游戏, 网页游戏, 驾驶模拟, 休闲解压, 3D, 程序化生成
+- [Sandtris](https://sandtris.com/)
+  - 游戏, 网页游戏, 俄罗斯方块, 物理模拟, 益智, 解压, 休闲
+- [Webamp](https://webamp.org/)
+  - 音乐播放器, 网页工具, 复古, 交互体验, 开源, 在线多媒体, Winamp
+- [Nyan Cat](https://www.nyan.cat/)
+  - 互联网迷因, 网页艺术, 像素风, 解压, 趣味交互, 网页游戏, 经典网站, 彩虹猫
+- [Bongo Cat](https://bongo.cat/)
+  - 网页游戏, 音乐, 乐器, 趣味交互, 解压, 休闲, 游戏与互动
+- [Pointer Pointer](https://pointerpointer.com/)
+  - 互动, 网页游戏, 趣味交互, 解压, 创意, 无用网站
+- [The Useless Web](http://www.theuselessweb.com/)
+  - 趣味, 随机网站, 创意网页, 解压, 娱乐, 互动, 发现
+- [Watabou](https://watabou.github.io/)
+  - 地图生成, 跑团工具, 过程生成, 创意工具, 游戏工具, 奇幻设定, 可视化
+- [Azgaar](https://azgaar.github.io/Fantasy-Map-Generator/)
+  - 工具, 地图生成, 奇幻, 世界观设定, RPG资源, 生成器, 设计工具
+- [Rooms.xyz](https://rooms.xyz/)
+  - 游戏与互动, 网页游戏, 3D创作, 沙盒, 体素, 创意工具, 像素风, 空间设计, 趣味交互, 解压
+- [Guivo](https://guivo.io/#/play-tutorial)
+  - 游戏, 网页游戏, 三消, 益智, 竞技, 解压, 排位赛, ELO机制
+- [Chess.com](https://www.chess.com/)
+  - 国际象棋, 棋牌游戏, 在线对战, 网页游戏, 策略游戏, 学习与教育, 游戏与互动
+- [Guess The Pin](https://www.guessthepin.com/)
+  - 网页游戏, 游戏与互动, 益智解谜, 在线协作, 趣味交互, 解压
+- [Guess The Price](https://guesstheprice.net/)
+  - 网页游戏, 休闲游戏, 益智, 价格猜测, 趣味交互
+- [TypeRacer](https://play.typeracer.com/)
+  - 网页游戏, 打字练习, 打字比赛, 在线竞技, 休闲解压, 游戏与互动, 教育工具
+- [Vampire Survivors](https://poncle.itch.io/vampire-survivors)
+  - 游戏与互动, 网页游戏、趣味交互与解压, 吸血鬼幸存者网页版，非常上头的刷怪游戏。
+- [Maj-Soul](https://www.maj-soul.com/#/home)
+  - 游戏, 网页游戏, 雀魂, 麻将, 日麻
+- [Taiko Simulator](https://tg.lv5.ac)
+  - 游戏, 网页游戏, 音游, 节奏游戏, 太鼓达人, 模拟器, 休闲娱乐, 交互体验
+- [Melody Muncher](http://ddrkirby.com/games/melody-muncher/melody-muncher.html)
+  - 游戏, 网页游戏, 音乐游戏, 节奏游戏, 独立游戏, 休闲, 解压, 像素风, Melody Muncher
+- [BeatStage](http://www.beatstage.com/)
+  - 游戏与互动, 网页游戏, 音乐游戏, 音游, 节奏游戏, 开放式网页音乐游戏, 在线娱乐, 趣味交互
+- [Temple Run](https://pos.biborg.com/fr/)
+  - 游戏, 网页游戏, 跑酷游戏, 神庙逃亡, 休闲解压, 互动体验
+- [Jazz vs Waffles](https://www.jazzvswaffles.com/)
+  - 游戏, 网页游戏, 人工智能, AI应用, 角色PK, 模拟器, 互动娱乐, 趣味解压
+- [Retryables](https://retryables.com/)
+  - 游戏与互动, 网页游戏, 趣味交互, 解压, 创意游戏, 极简, 休闲游戏, 独立游戏
+- [Noclip](https://noclip.website/)
+  - 游戏与互动, 网页游戏, 趣味交互, 地图博物馆, 关卡设计, 经典游戏, 复古游戏, 3D展示, WebGL, 数字存档
+- [Flashpoint](https://bluemaxima.org/flashpoint/)
+  - 游戏保存, Flash游戏, 网页游戏, 数字档案馆, 怀旧游戏, 软件工具, 开源项目
+- [How Long To Beat](https://howlongtobeat.com/)
+  - 游戏, 游戏工具, 数据查询, 通关时长, 游戏数据库
+- [Indie Expo](https://www.indiexpo.net/)
+  - 独立游戏, 游戏平台, 网页游戏, 免费游戏, 游戏社区, 游戏与互动, 独立游戏集合站
+- [User Inyerface](https://userinyerface.com/game.html)
+  - 网页游戏, UI设计, UX设计, 交互设计, 反面教材, 趣味实验, 用户体验, 创意设计
+- [Life Restart](http://liferestart.syaro.io/view/index.html)
+  - 网页游戏, 人生重开模拟器, 模拟器, 文字游戏, 趣味交互, 解压, 休闲娱乐
+- [Nazo](http://nazo.one-story.cn/)
+  - 游戏, 网页游戏, 解谜, 益智, 脑洞, 闯关, 互动
+- [Gravity Points](https://codepen.io/akm2/full/rHIsa)
+  - 互动交互, 网页游戏, 物理模拟, CodePen, 创意编程, Canvas, JavaScript, 解压, 视觉艺术
+- [Sharkle](https://sharkle.com/)
+  - 游戏与互动, 网页游戏, 趣味交互, 解压, 创意网站, 随机跳转, 网页艺术, 实验性网页
+- [Patatap](https://patatap.com/)
+  - 互动体验, 网页游戏, 解压, 音乐, 视听艺术, 动画, 趣味交互
+- [Weave Silk](http://weavesilk.com/)
+  - 生成艺术, 互动艺术, 网页游戏, 解压, 绘画工具, 对称美学, 创意实验
+- [Water Effect](http://watereffect.net/index.php)
+  - 图像处理, 动画制作, 水波纹效果, 在线工具, 图片特效, 视觉设计, 趣味交互
+- [Spin Painter](http://mrdoob.com/#/157/spin_painter)
+  - 交互艺术, 网页游戏, 解压, 旋转绘画, 绘画工具, 视觉实验, 创意工具
+- [Solitaire?](https://www.google.com/search?q=http://mrdoob.com/lab/javascript/effects/solitaire/%3Furl_type%3D39%26object_type%3Dwebpage%26pos%3D1)
+  - 游戏与互动, 网页特效, 趣味交互, 解压, JavaScript, 创意网页, 视觉艺术
+- [Ro.me](http://www.ro.me/)
+  - 游戏与互动, 互动式Web实验, WebGL, 交互式音乐录像带, Chrome Experiments, 3D网页, 创意编程, 趣味交互
+- [Plant Trees](http://fff.cmiscm.com/#!/section/planttrees)
+  - 游戏与互动, 网页游戏, 趣味交互, 解压, 种树交互艺术, Form Follows Function, 创意编程, 生成艺术, HTML5, 视觉实验
+- [Paper Planes](https://landing.adobe.com/en/na/products/creative-cloud/69308-real-or-photoshop/index.html)
+  - Adobe, 网页游戏, 互动体验, 测验, 图像处理, 视觉挑战, 趣味交互
+- [ISS Sim](https://iss-sim.spacex.com/)
+  - 网页游戏, 模拟器, SpaceX, 航天, 科普, 国际空间站, 互动体验, 游戏与互动
+- [Human Benchmark](https://humanbenchmark.com/)
+  - 网页游戏, 脑力测试, 反应速度, 记忆力测试, 认知评估, 趣味交互, 基准测试
+- [Make A Deck](https://www.me.uk/cards/makeadeck.cgi)
+  - 游戏工具, 在线工具, 扑克牌, 卡牌生成器, 趣味交互, 设计工具
+- [Neave](https://neave.com/)
+  - 游戏, 网页游戏, 互动体验, 解压, 小游戏集合, 趣味应用, 创意设计, 实验艺术
+- [Resn](https://resn.co.nz/#)
+  - 创意设计, 交互设计, WebGL, 数字创意代理商, 3D 交互, 网页灵感, 特效展示, Awwwards
+- [Anitabi](https://anitabi.cn/map)
+  - 二次元, 动漫, 圣地巡礼, 地图工具, 旅游, 亚文化, 泛娱乐
+- [I Event](https://ievent.life/)
+  - 二次元, 线下活动, 地下偶像, Live, VTuber, 声优, 动漫, 资讯站, 泛娱乐, 演出信息, 亚文化
+- [VTBS](https://vtbs.moe/)
+  - 二次元, 虚拟主播, Vtuber, 数据分析, 数据统计, Bilibili, 泛娱乐, 亚文化, 工具
+- [Ymgal](https://www.ymgal.games)
+  - Galgame, 视觉小说, 二次元, 游戏社区, 游戏点评, 游戏数据库
+- [Miku Tools](https://tools.miku.ac/)
+  - 在线工具, 多功能工具箱, 二次元, 初音未来, 视频下载, 图片处理, 效率工具, 网页应用
+- [Picrew](https://picrew.me/)
+  - 二次元, 动漫, 亚文化, 捏人, 头像制作, 角色创建, 在线工具, 设计素材
+- [ShindanMaker](https://shindanmaker.com/1064580)
+  - 二次元与泛娱乐, 动漫、影视、虚拟主播与亚文化, 趣味诊断生成器, Fate系列, 在线工具, ACG资源, 令咒生成
+- [Trace Moe](https://trace.moe/)
+  - 二次元, 动漫, 搜番, 以图搜番, 搜索引擎, 在线工具, ACG, 截图识别
+- [可疑链接已删除]()
+  - 二次元, 动漫, 插画, 搜图, 聚合搜索, 工具, 亚文化, 泛娱乐
+- [SauceNAO](http://saucenao.com/index.php)
+  - 二次元, 动漫, 以图搜图, 图片搜索, 搜索引擎, 工具, 逆向搜索, 插画溯源
+- [Anime Pictures](https://anime-pictures.net/)
+  - 二次元, 动漫, 壁纸, 插画, 图库, 高清图片, 视觉艺术
+- [Lab Magiconch](https://lab.magiconch.com/homo/)
+  - 二次元与泛娱乐, 亚文化, 恶臭数字论证器, 在线工具, 生成器, 梗
+- [Vaporwave](https://lab.magiconch.com/vaporwave/?from=home)
+  - 图片处理, 在线工具, 蒸汽波, 复古风, 滤镜, 亚文化, 设计工具, 艺术创作, 神奇海螺试验场
+- [Thug Life](http://www.pngall.com/thug-life-png)
+  - 设计素材, PNG图片, 迷因文化, Thug Life, 亚文化, 透明背景素材, 泛娱乐
+- [Mix Emoji](https://tikolu.net/)
+  - 在线工具, Emoji, 表情包, 创意工具, 休闲娱乐
+- [Halfne Miku](http://johnsu.deviantart.com/art/Halfne-Miku-Studio-396850314)
+  - 二次元与泛娱乐, 动漫、影视、虚拟主播与亚文化, 初音未来, VOCALOID, Flash 游戏, 互动媒体, DeviantArt, 换装游戏, 同人创作
+- [Leptc](https://leptc.github.io/bili/)
+  - B站, 数据统计, 排行榜, 粉丝追踪, 工具, 二次元, 泛娱乐
+- [Date Night Movies](https://datenightmovies.com/)
+  - 影视, 电影推荐, 在线工具, 生活工具, 决策辅助
+- [IMP Awards](http://www.impawards.com/)
+  - 影视, 海报, 设计, 素材, 电影海报
+- [Autum](https://autum.com/)
+  - 二次元, 泛娱乐, 动漫, 影视, 影视统计, 观影记录, 数据分析, 媒体追踪
+- [The Song Painted Nature](https://news.cgtn.com/event/2023/The-Song-Painted-Nature/index.html)
+  - 艺术, 文化, 宋代, 国画, 数字展览, 交互体验, CGTN, 历史
+- [VV语录](https://vv.cicada000.work/)
+  - 虚拟主播, VTuber, 二次元, 语录, 数据库, 检索工具, 亚文化
+- [SMZDM 什么值得买](http://www.smzdm.com/)
+  - 购物, 优惠, 测评, 生活, 消费, 导购, 折扣, 电商
+- [Maigoo](https://www.maigoo.com/)
+  - 品牌排行, 购物指南, 消费百科, 生活服务, 行业研究, 商业资讯
+- [Product Hunt](https://www.producthunt.com/)
+  - 科技, 创业, 产品, 工具, 软件, 互联网
+- [IT Juzi](https://www.itjuzi.com/deathCompany)
+  - 商业, 创业, 互联网, 数据分析, 投融资, 行业观察, 案例分析
+- [StartZone](https://startzone.club/)
+  - 商业, 初创公司, 盈利统计, 独立开发, SaaS, 项目灵感, 案例分析
+- [Fiverr](https://www.fiverr.com/)
+  - 自由职业, 商业服务, 外包, 职场工具, 数字服务, 兼职招聘, 灵活用工
+- [1688](https://www.1688.com/)
+  - 购物, 批发, 采购, B2B, 电商, 阿里巴巴
+- [Taobao Auction](https://sf.taobao.com/)
+  - 生活与消费, 购物, 拍卖, 司法拍卖, 商业, 阿里巴巴, 资产处置, 金融
+- [JD Auction](http://auction.jd.com/haiguan.html)
+  - 生活与消费, 购物, 电商, 拍卖, 京东, 海关拍卖, 政府拍卖, 资产处置
+- [Chiphell](http://www.chiphell.com/)
+  - 电脑硬件, 数码, 生活方式, 发烧友, 评测, 论坛, 极客, 摄影
+- [Wooden Ears](https://www.woodenears.com/)
+  - 数码, 耳机, 音频设备, 评测, 参数对比, 选购指南, 生活与消费
+- [DXOMARK](https://www.dxomark.com/)
+  - 科技, 数码, 硬件评测, 基准测试, 智能手机, 摄影摄像, 消费电子, 屏幕音频
+- [Samyang Lens](https://www.samyanglens.com/en/product/simulator/lens.php)
+  - 摄影, 镜头模拟器, 摄影工具, 光学科普, 焦段演示
+- [WTFSIGFD](https://wtfsigfd.com/#location)
+  - 饮食, 生活, 工具, 决策辅助, 随机推荐
+- [Cook Yunyoujun](https://cook.yunyoujun.cn/)
+  - 生活, 饮食, 烹饪, 菜谱, 工具, 在线工具
+- [FatSecret](https://www.fatsecret.cn/%E7%83%AD%E9%87%8F%E8%90%A5%E5%85%BB/)
+  - 生活, 饮食, 健康, 营养, 健身, 工具, 卡路里
+- [Muscle Wiki](https://musclewiki.com/)
+  - 健身, 运动, 健康, 生活, 工具, 教学
+- [Tianxun 天巡](https://www.tianxun.com/)
+  - 旅游, 机票, 酒店, 出行, 搜索, 比价, 生活
+- [Eshow365](http://www.eshow365.com/)
+  - 会展, 商业, 贸易, 行业资讯, 信息门户
+- [Liangcang 良仓](http://www.iliangcang.com/i/home/)
+  - 生活美学, 创意设计, 家居, 生活方式, 在线购物, 艺术
+- [MTM Wood](http://mtmwood.com/en)
+  - 生活与消费, 购物, 家居, 厨具, 木工, 手工, 艺术
+- [Kongfz 孔夫子旧书网](https://www.kongfz.com/)
+  - 生活与消费, 购物, 旧书, 图书, 文化, 二手交易, 收藏, 电商
+- [MihuaShi 米画师](https://www.mihuashi.com/artists)
+  - 设计与艺术, 美术外包, 交易平台, 约稿, 商业服务, 插画, 自由职业
+- [Kaola Media](https://www.kaolamedia.com/)
+  - 新媒体工具, 新媒体导航, 运营素材, 素材资源, 新媒体人工具箱, 内容创作
+- [MJ Yuzhua](https://mj.yuzhua.com/search/3.html)
+  - 商业服务, 新媒体, 账号交易, 数字资产, 虚拟资产交易, 营销工具
+- [Yume](http://yume.ly/)
+  - 社交, 社区, 梦境, 日记, 记录, 梦乡
+- [Soul Apartment](http://soulapartment.net/bin/index.php)
+  - 社交, 社区, 匿名, 树洞, 秘密分享
+- [ShuShuBuYue](http://www.shushubuyue.net/#)
+  - 社交, 匿名聊天, 在线聊天, 交友
+- [Drrr](http://drrr.com/lounge)
+  - 社交, 聊天室, 匿名, ACG, 无头骑士异闻录, 社区
+- [Kook](https://www.kookapp.cn)
+  - 社交, 游戏, 语音, 即时通讯, 社区, 开黑
+- [Saraba1st](https://bbs.saraba1st.com/2b/space-uid-197835.html)
+  - 社交, 论坛, 社区, Saraba1st, S1, 酒店, 评测, 生活
+- [TopHub](https://tophub.today/)
+  - 今日热榜, 信息聚合, 热点资讯, 导航, 新闻
+- [Houxu 后续](https://houxu.app/)
+  - 新闻, 事件追踪, 资讯, 时间轴, 媒体
+- [Bookmark Earth](https://www.bookmarkearth.cn/)
+  - 书签管理, 资源分享, 社区, 导航, 效率工具, 浏览器插件
+- [YouquHome](http://youquhome.com/page/3/)
+  - 导航, 趣味网站, 酷站, 发现, 资源
+- [Ptxz](http://www.ptxz.com/fo/)
+  - 工具, 在线工具, 加密解密, 与佛论禅, 文本处理, 趣味
+- [YesNo](https://yesno.wtf/)
+  - 工具, 随机决策, 动图, 有趣, 辅助决策
+- [Eitheryoulikebacon](https://eitheryoulikebaconoryourewrong.com/)
+  - 无聊网站, 趣味, 培根, 单页网站, 沙雕网站
+- [Bacon Or Wrong](https://eitheryoulikebaconoryourewrong.com/)
+  - 娱乐, 幽默, 趣味, 创意网站
+- [PhotoMosh](https://photomosh.com/)
+  - 故障艺术, 图片处理, 在线工具, 设计工具, 视频特效, 创意工具
+- [KeepScreenOn](https://www.keepscreenon.com/)
+  - 工具, 在线工具, 系统工具, 生产力, 防止锁屏
+- [Window Swap](https://window-swap.com/)
+  - 云旅游, 治愈系, 创意, 视频, 休闲, 生活方式
+- [Spread The Sign](https://www.spreadthesign.com/)
+  - 手语, 词典, 语言学习, 教育, 无障碍, 在线工具, 公益
+- [Which English](http://archive.gameswithwords.org/WhichEnglish/)
+  - 英语, 语言学习, 语言测试, 语言学, 方言辨析, 教育, 在线工具
+- [SpeechAce](https://www.speechace.com/)
+  - 语言学习, 英语学习, 口语练习, AI工具, 发音评分
+- [Behind The Name](https://www.behindthename.com/)
+  - 姓名, 词源, 参考资料, 语言, 文化, 历史, 工具
+- [Merriam-Webster](https://www.merriam-webster.com/)
+  - 词典, 英语学习, 语言工具, 韦氏词典, 在线学习, 单词游戏, 参考资料
+- [Zero To Hero](https://www.zerotohero.ca/)
+  - 语言学习, 在线教育, 视频学习, 学习工具, AI工具
+- [Forvo](https://zh.forvo.com/user/hikari1/pronounced-words/page-2/)
+  - 语言学习, 发音, 词典, 在线工具, 教育, 母语发音
+- [Coursera](https://www.coursera.org/)
+  - 教育, 在线教育, 公开课, MOOC, 学习, 职业培训
+- [ICourse163](https://www.icourse163.org/)
+  - 教育, 学习, 在线教育, MOOC, 中国大学MOOC, 国家精品课程
+- [WuxiaWorld](http://www.wuxiaworld.com/)
+  - 小说, 网文, 翻译, 阅读, 文学, 仙侠, 英文, 社区
+- [Z-Lib](https://z-lib.org/)
+  - 电子书, 资源, 学术, 文献, 图书馆
+- [Wix](https://www.wix.com/)
+  - 建站工具, 零代码, 开发工具, 设计工具, SaaS
+- [OSR](https://osr.org/)
+  - 礼物, 天文, 星星命名, 创意礼物, 在线服务
+- [Giphy](https://giphy.com/)
+  - GIF, 表情包, 搜索引擎, 多媒体, 设计素材, 动图, 社交媒体工具
+- [Ysjf Material](https://www.ysjf.com/material)
+  - 视频素材, 视频剪辑, 素材资源, 影视飓风, 设计资源, 影视制作
+- [Mowned](http://mowned.com/)
+  - 社交, 社区, 手机, 数码, 历史, 时间轴, 收藏
+- [ArtBreeder](https://artbreeder.com/)
+  - 人工智能, 图像生成, 设计工具, 艺术制作, 社区, 在线工具
+- [Ncov DXY](https://ncov.dxy.cn/ncovh5/view/pneumonia)
+  - 医疗健康, 新冠疫情, 疫情地图, 数据可视化, 历史存档, 丁香医生
+- [IAPLC](https://iaplc.com/c/)
+  - 水草造景, 水族, 大赛官网, 图库, 艺术设计, IAPLC
+- [League of Legends Nexus](https://nexus.leagueoflegends.com/en-us/)
+  - 游戏, 英雄联盟, 开发者博客, 官方资讯
+- [YSJF](https://www.ysjf.com/material)
+  - 影视飓风, 视频素材, 后期制作, 设计资源, 音效, 摄影素材
+- [Sketchfab](https://sketchfab.com/)
+  - 3D模型, 素材资源, 设计工具, 模型下载, 创作者社区, VR/AR
+- [Thingiverse](https://www.thingiverse.com/)
+  - 3D打印, 3D模型, 模型库, 创客, 社区, 设计, 开源资源

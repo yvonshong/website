@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +17,7 @@
       --accent-color: #00f2ff;
       --accent-glow: rgba(0, 242, 255, 0.3);
       --hover-bg: rgba(255, 255, 255, 0.05);
-      --tab-active: #fff;
+      --tag-bg: rgba(255, 255, 255, 0.05);
     }
 
     body {
@@ -37,23 +36,21 @@
     }
 
     @keyframes bgScroll {
-      from {
-        background-position: 0 0, 0 0, 0 0;
-      }
+      from { background-position: 0 0, 0 0, 0 0; }
+      to { background-position: 0 0, 0 50px, 50px 0; }
+    }
 
-      to {
-        background-position: 0 0, 0 50px, 50px 0;
-      }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px 20px;
     }
 
     h1 {
       font-size: 2.5em;
-      color: #fff;
       text-align: center;
-      margin: 50px 0 40px;
+      margin-bottom: 30px;
       font-weight: 700;
-      letter-spacing: 2px;
-      text-transform: uppercase;
       background: linear-gradient(90deg, #fff, var(--accent-color), #fff);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
@@ -62,154 +59,103 @@
     }
 
     @keyframes shine {
-      to {
-        background-position: 200% center;
-      }
+      to { background-position: 200% center; }
     }
 
-    /* Tabs */
-    .tabs-wrapper {
+    .search-container {
+      position: relative;
+      margin: 0 auto 30px;
+      max-width: 600px;
+    }
+
+    #search-input {
+      width: 100%;
+      padding: 18px 25px;
+      font-size: 1.1em;
+      border-radius: 30px;
+      border: 1px solid var(--accent-color);
+      background: rgba(10, 11, 16, 0.8);
+      color: #fff;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 0 20px var(--accent-glow);
+      outline: none;
+      box-sizing: border-box;
+      transition: all 0.3s ease;
+    }
+
+    #search-input:focus {
+      box-shadow: 0 0 30px rgba(0, 242, 255, 0.6);
+    }
+    
+    .candidates {
       display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
       justify-content: center;
-      margin-bottom: 50px;
-      padding: 0 20px;
+      margin-top: 15px;
+      min-height: 40px;
     }
 
-    .tabs {
+    .tag-cloud {
       display: flex;
       flex-wrap: wrap;
       gap: 12px;
-      padding: 8px;
-      background: rgba(255, 255, 255, 0.03);
-      border-radius: 20px;
-      border: 1px solid var(--card-border);
-      backdrop-filter: blur(12px);
-      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-    }
-
-    .tab-button {
-      padding: 10px 24px;
-      cursor: pointer;
-      border: 1px solid transparent;
-      background-color: transparent;
-      font-size: 0.95em;
-      color: var(--text-secondary);
-      border-radius: 14px;
-      transition: all 0.3s ease;
-      font-weight: 500;
-      letter-spacing: 0.5px;
-    }
-
-    .tab-button:hover {
-      color: #fff;
-      background-color: var(--hover-bg);
-      border-color: rgba(255, 255, 255, 0.1);
-    }
-
-    .tab-button.active {
-      color: var(--bg-color);
-      background-color: var(--accent-color);
-      box-shadow: 0 0 20px var(--accent-glow);
-      font-weight: 700;
-      border-color: var(--accent-color);
-    }
-
-    /* Content */
-    #content-container {
-      max-width: 1400px;
-      margin: 0 auto;
-      padding: 0 20px 80px;
-    }
-
-    .content-panel {
-      display: none;
-      animation: fadeIn 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-    }
-
-    .content-panel.active {
-      display: block;
-    }
-
-    .main-category {
-      margin-bottom: 50px;
-    }
-
-    h2 {
-      font-size: 1.1em;
-      color: var(--accent-color);
-      margin: 30px 0 20px;
-      display: flex;
+      justify-content: center;
       align-items: center;
-      gap: 15px;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      opacity: 0.9;
+      margin-bottom: 40px;
     }
 
-    h2::after {
-      content: '';
-      flex: 1;
-      height: 1px;
-      background: linear-gradient(90deg, var(--accent-color), transparent);
-      opacity: 0.3;
+    .tag {
+      padding: 8px 16px;
+      background: var(--tag-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 20px;
+      color: var(--text-secondary);
+      font-size: 0.9em;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      backdrop-filter: blur(5px);
     }
 
-    /* Grid - Adjusted min-width to accommodate wider text */
-    .grid-container {
+    .tag:hover, .tag.active {
+      background: var(--accent-color);
+      color: #0a0b10;
+      box-shadow: 0 0 15px var(--accent-glow);
+      border-color: var(--accent-color);
+      font-weight: 600;
+    }
+
+    .results-container {
       display: grid;
-      /* Changed from 90px to 140px to fit the 120px text comfortably */
-      grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
       gap: 20px;
-      padding: 0;
-      list-style: none;
     }
 
-    @media (min-width: 640px) {
-      .grid-container {
-        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-      }
-    }
-
-    @media (min-width: 1024px) {
-      .grid-container {
-        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-      }
-    }
-
-    .grid-item {
-      list-style: none;
-    }
-
-    /* Cards */
     .card {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
       text-decoration: none;
-      color: var(--text-primary);
-      padding: 15px 5px;
+      padding: 20px 15px;
       background-color: var(--card-bg);
       border: 1px solid var(--card-border);
-      border-radius: 12px;
+      border-radius: 16px;
       transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-      height: 110px;
+      height: 120px;
       text-align: center;
-      position: relative;
-      overflow: hidden;
       backdrop-filter: blur(10px);
+      position: relative;
     }
 
     .card::before {
       content: '';
       position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
+      top: 0; left: 0; right: 0; bottom: 0;
       background: radial-gradient(circle at center, var(--accent-glow), transparent 70%);
       opacity: 0;
       transition: opacity 0.4s;
+      border-radius: 16px;
     }
 
     .card:hover {
@@ -219,218 +165,298 @@
       z-index: 10;
     }
 
-    .card:hover::before {
-      opacity: 0.4;
-    }
+    .card:hover::before { opacity: 0.4; }
 
     .card img {
-      width: 40px;
-      height: 40px;
-      margin-bottom: 10px;
-      border-radius: 8px;
+      width: 44px;
+      height: 44px;
+      margin-bottom: 15px;
+      border-radius: 10px;
       transition: transform 0.4s ease;
-      filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+      filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));
+      position: relative;
+      z-index: 2;
     }
 
     .card:hover img {
       transform: scale(1.1) rotate(5deg);
     }
 
-    /* Name Text - Width increased to 120px */
     .card span.name {
-      font-size: 12px;
-      line-height: 1.4;
-      font-weight: 500;
       color: var(--text-primary);
-      z-index: 1;
-      margin-bottom: 4px;
-      display: block;
-      max-width: 120px; /* Changed from 40px to 120px (3x icon width) */
+      font-size: 14px;
+      font-weight: 500;
+      position: relative;
+      z-index: 2;
+      max-width: 140px;
       overflow: hidden;
       text-overflow: ellipsis;
       white-space: nowrap;
     }
-
-    /* Description Text - Width increased to 120px */
-    .card span.desc {
-      font-size: 9px;
+    
+    .card span.tags {
       color: var(--text-secondary);
-      max-width: 120px; /* Changed from 40px to 120px (3x icon width) */
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      display: block;
-      margin: 0 auto;
+      font-size: 11px;
+      margin-top: 8px;
+      position: relative;
+      z-index: 2;
       opacity: 0.7;
-      transition: opacity 0.3s;
     }
 
-    .card:hover span.desc {
-      opacity: 1;
-      color: var(--accent-color);
+    .hidden {
+      display: none !important;
     }
-
-    .no-link {
-      opacity: 0.6;
-      cursor: default;
-    }
-
-    .no-link:hover {
-      transform: none;
-      box-shadow: none;
-      border-color: var(--card-border);
-    }
-
-    .error-message {
-      text-align: center;
-      padding: 50px;
-      color: #ff4d4d;
-    }
-
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-        transform: translateY(10px);
-      }
-
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
+    
+    .empty-state {
+        grid-column: 1 / -1;
+        text-align: center;
+        padding: 40px;
+        color: var(--text-secondary);
+        font-size: 1.1em;
     }
   </style>
 </head>
-
 <body>
+  <div class="container">
+    <h1>Awesome Website</h1>
+    
+    <div class="search-container">
+      <input type="text" id="search-input" placeholder="搜索标签或名称..." autocomplete="off">
+      <div id="candidates" class="candidates"></div>
+    </div>
 
-  <h1>Awesome Website</h1>
-  <div class="tabs-wrapper">
-    <div id="tabs-container" class="tabs"></div>
+    <div id="tag-cloud" class="tag-cloud"></div>
+    <div id="results" class="results-container"></div>
   </div>
-  <div id="content-container"></div>
 
   <script src="bookmarks.js"></script>
-
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      if (typeof bookmarksData === 'undefined') {
-        document.body.innerHTML = `<div class="error-message"><h2>加载失败</h2><p>未能加载书签数据 (bookmarks.js)。</p><p>请先运行 'python generate_js.py' 命令来生成该文件。</p></div>`;
+      let data = [];
+      if (typeof window.bookmarksData !== 'undefined') {
+        data = window.bookmarksData;
+      } else if (typeof bookmarksData !== 'undefined') {
+        data = bookmarksData;
+      } else {
+        document.body.innerHTML = '<h2 style="color:red;text-align:center;">加载书签数据失败，请检查 bookmarks.js</h2>';
         return;
       }
-      buildPageFromData(bookmarksData);
-    });
-
-    function buildPageFromData(data) {
-      const tabsContainer = document.getElementById('tabs-container');
-      const contentContainer = document.getElementById('content-container');
-      const defaultIcon = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjNTU1IiBkPSJNMTAgNHYyYTggOCAwIDAgMCA4IDhoMmExMCAxMCAwIDAgMS0xMCAxMFY0Wm0xMC4wMDggMi44MjhsMS40MTQgMS40MTRMMTUuNTU0IDEybDEuNDM4IDIuNzU4bC0yLjg1NyAyLjM5OEwxMyAxMy41VjExbDIuMDA4LS43MTRZTTMuOTkyIDQuMjIybC0xLjQxNCAxLjQxNEw4LjQ0NiAxMmwzLjU2MiA2LjQ2MWwyLjg1Ny0yLjM5OEw5IDEwLjVWMTNMLTIuMDA4LjcxNFoiLz48L3N2Zz4=';
-      const appIcon = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiM1NTUiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cmVjdCB4PSI1IiB5PSIyIiB3aWR0aD0iMTQiIGhlaWdodD0iMjAiIHJ4PSIyIiByeT0iMiI+PC9yZWN0PjxsaW5lIHgxPSIxMiIgeTE9IjE4IiB4Mj0iMTIiIHkyPSIxOCI+PC9saW5lPjwvc3ZnPg==';
-
-      data.forEach((category, index) => {
-        const panelId = `panel-${index}`;
-
-        // Create Tab Button
-        const tabButton = document.createElement('button');
-        tabButton.className = 'tab-button';
-        tabButton.textContent = category.category;
-        tabButton.setAttribute('data-target', panelId);
-        tabsContainer.appendChild(tabButton);
-
-        // Create Content Panel
-        const contentPanel = document.createElement('div');
-        contentPanel.id = panelId;
-        contentPanel.className = 'content-panel';
-        const mainCategoryDiv = document.createElement('div');
-        mainCategoryDiv.className = 'main-category';
-        contentPanel.appendChild(mainCategoryDiv);
-
-        category.subsections.forEach(subsection => {
-          const h2 = document.createElement('h2');
-          h2.textContent = subsection.title;
-          mainCategoryDiv.appendChild(h2);
-          const ul = document.createElement('ul');
-          ul.className = 'grid-container';
-          mainCategoryDiv.appendChild(ul);
-
-          subsection.items.forEach(item => {
-            const {
-              name,
-              url,
-              description
-            } = item;
-            const li = document.createElement('li');
-            li.className = 'grid-item';
-            const card = url ? document.createElement('a') : document.createElement('div');
-            card.className = url ? 'card' : 'card no-link';
-            if (url) {
-              card.href = url;
-              card.target = "_blank";
-            }
-
-            const img = document.createElement('img');
-            const nameSpan = document.createElement('span');
-            nameSpan.className = 'name';
-            nameSpan.textContent = name;
-            nameSpan.title = name; // Show full name on hover
-
-            card.appendChild(img);
-            card.appendChild(nameSpan);
-
-            if (description) {
-              const descSpan = document.createElement('span');
-              descSpan.className = 'desc';
-              descSpan.textContent = description;
-              descSpan.title = description; // Show full text on hover
-              card.appendChild(descSpan);
-            }
-
-            li.appendChild(card);
-            ul.appendChild(li);
-
-            if (url) {
-              try {
-                const domain = new URL(url).hostname;
-                // Reverted to Google Favicon service as requested
-                img.src = `https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://${domain}&size=64`;
-                img.onerror = () => {
-                  img.src = defaultIcon;
-                };
-              } catch (e) {
-                img.src = defaultIcon;
-              }
-            } else {
-              img.src = name.toLowerCase().includes('app') ? appIcon : defaultIcon;
-            }
-          });
+      
+      const tagsMap = new Map();
+      
+      // Calculate frequency of tags
+      data.forEach(item => {
+        item.tags.forEach(tag => {
+          tagsMap.set(tag, (tagsMap.get(tag) || 0) + 1);
         });
-        contentContainer.appendChild(contentPanel);
       });
+      
+      const allTags = Array.from(tagsMap.entries())
+        .map(([tag, count]) => ({tag, count}))
+        .sort((a, b) => b.count - a.count); // sort by freq
+        
+      const resultsContainer = document.getElementById('results');
+      const searchInput = document.getElementById('search-input');
+      const candidatesContainer = document.getElementById('candidates');
+      const tagCloudContainer = document.getElementById('tag-cloud');
+      
+      let activeTags = new Set();
+      
+      // Render all tags initially in cloud
+      function renderTagCloud() {
+        tagCloudContainer.innerHTML = '';
+        if (allTags.length === 0) return;
+        
+        // 只取出现频率最高的前 100 个标签构建词云
+        const topTags = allTags.slice(0, 100);
+        
+        const maxCount = topTags[0].count;
+        const minCount = topTags[topTags.length - 1].count;
+        
+        // 打乱标签顺序以实现更好的词云视觉效果
+        const displayTags = [...topTags].sort(() => Math.random() - 0.5);
+        
+        displayTags.forEach(t => {
+          const btn = document.createElement('div');
+          btn.className = 'tag';
+          btn.textContent = t.tag;
+          
+          let fontSize = 0.8;
+          if (maxCount > minCount) {
+            // 根据数量计算字体大小 (在 0.8em 到 2.2em 之间)
+            fontSize = 0.8 + (1.4 * ((t.count - minCount) / (maxCount - minCount)));
+          }
+          btn.style.fontSize = `${fontSize}em`;
+          btn.style.padding = `0.4em 0.8em`; // 使内边距随字体大小缩放
+          
+          btn.onclick = () => toggleTag(t.tag);
+          tagCloudContainer.appendChild(btn);
+        });
+      }
+      
+      function toggleTag(tag) {
+        if(activeTags.has(tag)) {
+            activeTags.delete(tag);
+        } else {
+            activeTags.clear();
+            activeTags.add(tag);
+            searchInput.value = '';
+            candidatesContainer.innerHTML = '';
+        }
+        updateUI();
+      }
 
-      const tabs = document.querySelectorAll('.tab-button');
-      const panels = document.querySelectorAll('.content-panel');
-
-      function switchTab(targetId) {
-        panels.forEach(panel => panel.classList.remove('active'));
-        tabs.forEach(tab => tab.classList.remove('active'));
-
-        const targetPanel = document.getElementById(targetId);
-        const targetTab = document.querySelector(`.tab-button[data-target="${targetId}"]`);
-
-        if (targetPanel && targetTab) {
-          targetPanel.classList.add('active');
-          targetTab.classList.add('active');
+      function fuzzyMatch(str, query) {
+        if (!str || !query) return 0;
+        str = str.toLowerCase();
+        query = query.toLowerCase();
+        if (str === query) return 100;
+        if (str.includes(query)) return 10;
+        
+        let score = 0;
+        let strIdx = 0;
+        for (let i = 0; i < query.length; i++) {
+            const index = str.indexOf(query[i], strIdx);
+            if (index !== -1) {
+                score += 1;
+                strIdx = index + 1;
+            } else {
+                return 0; // not found in sequence
+            }
+        }
+        return score;
+      }
+      
+      function handleSearch() {
+        activeTags.clear();
+        const query = searchInput.value.trim();
+        
+        if(!query) {
+          candidatesContainer.innerHTML = '';
+          tagCloudContainer.classList.remove('hidden');
+          updateUI(true);
+          return;
+        }
+        
+        tagCloudContainer.classList.add('hidden');
+        
+        // Find matching tags
+        const scoredTags = allTags.map(t => {
+          return { tag: t.tag, score: fuzzyMatch(t.tag, query) };
+        }).filter(t => t.score > 0);
+        
+        scoredTags.sort((a, b) => b.score - a.score);
+        
+        candidatesContainer.innerHTML = '';
+        const topCandidates = scoredTags.slice(0, 10);
+        
+        // Add candidates below search bar
+        topCandidates.forEach(cand => {
+          const btn = document.createElement('div');
+          btn.className = 'tag';
+          btn.textContent = cand.tag;
+          btn.onclick = () => {
+            activeTags.clear();
+            activeTags.add(cand.tag);
+            searchInput.value = cand.tag;
+            handleSearch();
+          };
+          candidatesContainer.appendChild(btn);
+        });
+        
+        renderLinksByQueryAndTags(query, topCandidates.map(c => c.tag));
+      }
+      
+      function renderLinksByQueryAndTags(query, candidateTagNames) {
+        resultsContainer.innerHTML = '';
+        const matchSet = new Set();
+        
+        data.forEach(item => {
+          let score = fuzzyMatch(item.name, query);
+          
+          if (score > 0) {
+              matchSet.add(item);
+          } else if (item.tags.some(t => fuzzyMatch(t, query) > 0)) {
+              matchSet.add(item);
+          }
+        });
+        
+        const matchedItems = Array.from(matchSet);
+        if (matchedItems.length === 0) {
+            resultsContainer.innerHTML = '<div class="empty-state">没有找到匹配的书签</div>';
+            return;
+        }
+        
+        matchedItems.forEach(item => {
+          resultsContainer.appendChild(createCard(item));
+        });
+      }
+      
+      // Used by tag clicks from the main tag cloud
+      function updateUI(initial = false) {
+        if (initial) {
+          resultsContainer.innerHTML = '';
+        }
+        
+        document.querySelectorAll('#tag-cloud .tag').forEach(el => {
+          if(activeTags.has(el.textContent)) el.classList.add('active');
+          else el.classList.remove('active');
+        });
+        
+        if (initial) return;
+        
+        resultsContainer.innerHTML = '';
+        const activeTag = Array.from(activeTags)[0];
+        
+        if(!activeTag) return;
+        
+        let counter = 0;
+        data.forEach(item => {
+          if(item.tags.includes(activeTag)) {
+             resultsContainer.appendChild(createCard(item));
+             counter++;
+          }
+        });
+        
+        if (counter === 0) {
+            resultsContainer.innerHTML = '<div class="empty-state">没有找到在这标签下的书签</div>';
         }
       }
+      
+      function createCard(item) {
+        const a = document.createElement('a');
+        a.className = 'card';
+        a.href = item.url;
+        a.target = '_blank';
+        
+        const img = document.createElement('img');
+        try {
+          const domain = new URL(item.url).hostname;
+          img.src = `https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://${domain}&size=64`;
+          img.onerror = () => {
+             img.src = 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSIjNTU1IiBkPSJNMTAgNHYyYTggOCAwIDAgMCA4IDhoMmExMCAxMCAwIDAgMS0xMCAxMFY0Wm0xMC4wMDggMi44MjhsMS40MTQgMS40MTRMMTUuNTU0IDEybDEuNDM4IDIuNzU4bC0yLjg1NyAyLjM5OEwxMyAxMy41VjExbDIuMDA4LS43MTRZTTMuOTkyIDQuMjIybC0xLjQxNCAxLjQxNEw4LjQ0NiAxMmwzLjU2MiA2LjQ2MWwyLjg1Ny0yLjM5OEw5IDEwLjVWMTNMLTIuMDA4LjcxNFoiLz48L3N2Zz4=';
+          };
+        } catch(e) {}
+        
+        const name = document.createElement('span');
+        name.className = 'name';
+        name.textContent = item.name;
 
-      tabs.forEach(tab => {
-        tab.addEventListener('click', () => switchTab(tab.getAttribute('data-target')));
-      });
+        const tags = document.createElement('span');
+        tags.className = 'tags';
+        tags.textContent = item.tags.slice(0, 3).join(' • ');
 
-      if (tabs.length > 0) {
-        switchTab(tabs[0].getAttribute('data-target'));
+        a.appendChild(img);
+        a.appendChild(name);
+        a.appendChild(tags);
+        return a;
       }
-    }
+      
+      searchInput.addEventListener('input', handleSearch);
+      
+      renderTagCloud();
+      updateUI(true);
+    });
   </script>
 </body>
-
 </html>
