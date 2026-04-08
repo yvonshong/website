@@ -246,7 +246,8 @@
       
       // Calculate frequency of tags
       data.forEach(item => {
-        item.tags.forEach(tag => {
+        const tags = item.tags || [];
+        tags.forEach(tag => {
           tagsMap.set(tag, (tagsMap.get(tag) || 0) + 1);
         });
       });
@@ -376,7 +377,7 @@
           
           if (score > 0) {
               matchSet.add(item);
-          } else if (item.tags.some(t => fuzzyMatch(t, query) > 0)) {
+          } else if ((item.tags || []).some(t => fuzzyMatch(t, query) > 0)) {
               matchSet.add(item);
           }
         });
@@ -412,7 +413,7 @@
         
         let counter = 0;
         data.forEach(item => {
-          if(item.tags.includes(activeTag)) {
+          if((item.tags || []).includes(activeTag)) {
              resultsContainer.appendChild(createCard(item));
              counter++;
           }
@@ -444,7 +445,7 @@
 
         const tags = document.createElement('span');
         tags.className = 'tags';
-        tags.textContent = item.tags.slice(0, 3).join(' • ');
+        tags.textContent = (item.tags || []).slice(0, 3).join(' • ');
 
         a.appendChild(img);
         a.appendChild(name);
