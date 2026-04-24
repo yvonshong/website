@@ -39,6 +39,11 @@ const bookmarksData = [
             "name": "OneNote",
             "url": "https://onedrive.live.com/edit.aspx?resid=64F5982CEBA060FB!113&migratedtospo=true&wd=target%28%E5%BF%AB%E9%80%9F%E7%AC%94%E8%AE%B0.one%7Cf33bbb9b-8a40-4bb7-8700-0c5cbf3f896e%2F2022%20OKR%7C72548eb1-68ce-473d-9f30-ca608dd099f3%2F%29&wdorigin=NavigationUrl",
             "description": "笔记应用"
+          },
+          {
+            "name": "Notion",
+            "url": "https://www.notion.com/",
+            "description": "Notion"
           }
         ]
       }
@@ -89,6 +94,11 @@ const bookmarksData = [
             "name": "豆包",
             "url": "https://www.doubao.com/chat/",
             "description": "字节跳动"
+          },
+          {
+            "name": "Qwen",
+            "url": "https://chat.qwen.ai/",
+            "description": "千问"
           }
         ]
       },
@@ -894,6 +904,11 @@ const bookmarksData = [
             "name": "传文件",
             "url": "https://airportal.cn/",
             "description": "快传助手"
+          },
+          {
+            "name": "TailScale VPN",
+            "url": "https://login.tailscale.com/admin/machines",
+            "description": "TailScale VPN"
           }
         ]
       },
