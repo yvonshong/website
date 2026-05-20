@@ -1,1 +1,2 @@
-theme: jekyll-theme-cayman
+# Static site — disable Jekyll processing so index.html/bookmarks.js are served as-is
+plugins: []
